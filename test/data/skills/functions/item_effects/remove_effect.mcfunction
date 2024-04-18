@@ -1,0 +1,9 @@
+function skills:item_effects/remove_effect_sub {slot:0}
+function skills:item_effects/remove_effect_sub {slot:1}
+function skills:item_effects/remove_effect_sub {slot:2}
+function skills:item_effects/remove_effect_sub {slot:3}
+function skills:item_effects/remove_effect_sub {slot:4}
+function skills:item_effects/remove_effect_sub {slot:5}
+function skills:item_effects/remove_effect_sub {slot:6}
+function skills:item_effects/remove_effect_sub {slot:7}
+function skills:item_effects/remove_effect_sub {slot:8}

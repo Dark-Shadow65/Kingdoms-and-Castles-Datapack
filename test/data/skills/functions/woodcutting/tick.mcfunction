@@ -1,0 +1,3 @@
+#/give Dark_Shadow65 minecraft:iron_axe[minecraft:custom_data={efficiency_bonus:0,durability_bonus:0,fortune_bonus:0,damage_bonus:0,sharpness_bonus:0}]
+execute as @a if predicate skills:woodcutting/holding_axe run function skills:item_effects/add_effect with entity @s SelectedItem.components."minecraft:custom_data"
+execute as @a if predicate skills:woodcutting/has_axe run function skills:item_effects/remove_effect
