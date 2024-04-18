@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "base": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "addition": {
+      "item": "minecraft:iron_nugget"
+    },
+    "result": {
+      "id": "minecraft:netherite_ingot",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"text\":\"Iron Blade (Long)\"}",
+        "minecraft:hide_additional_tooltip": {}
+      }
+    }
+  }
