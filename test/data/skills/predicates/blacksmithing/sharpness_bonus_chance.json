@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:storage",
+      "storage": "minecraft:skills.blacksmithing",
+      "path": "nxtlvlperk"
+    },
+    "range": {
+      "min": 51,
+      "max": 75
+    }
+  }

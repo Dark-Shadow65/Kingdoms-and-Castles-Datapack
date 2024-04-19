@@ -14,7 +14,8 @@
       "count": 1,
       "components": {
         "minecraft:item_name": "{\"text\":\"Iron Axe\"}",
-        "minecraft:hide_additional_tooltip": {}
+        "minecraft:hide_additional_tooltip": {},
+        "minecraft:custom_data": {"efficiency_bonus":0,"durability_bonus":0,"fortune_bonus":0,"damage_bonus":0,"sharpness_bonus":0}
       }
     }
   }

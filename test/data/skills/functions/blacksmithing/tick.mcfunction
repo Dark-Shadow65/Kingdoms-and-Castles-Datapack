@@ -1,0 +1,1 @@
+clear @a #swords[minecraft:custom_data={"bonus_applied":false,"sharp":false}] 1

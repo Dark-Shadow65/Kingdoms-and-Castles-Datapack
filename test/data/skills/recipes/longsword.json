@@ -26,7 +26,7 @@
               0
             ],
             "name": "test",
-            "amount": -0.5,
+            "amount": -1,
             "operation": "add_multiplied_base",
             "slot": "mainhand"
           }
@@ -36,7 +36,9 @@
       "minecraft:hide_additional_tooltip": {},
       "minecraft:lore": [
         "[{\"text\":\"Unsharpend\",\"color\":\"red\",\"italic\":false}]"
-      ]
+      ],
+      "minecraft:custom_data": {"bonus_applied":false,"sharp":false},
+      "minecraft:writable_book_content": {}
     }
   }
 }
