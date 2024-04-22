@@ -7,13 +7,13 @@
         "item": "minecraft:blaze_rod"
     },
     "addition": {
-        "item": "minecraft:iron_nugget"
+        "item": "minecraft:blaze_rod"
     },
     "result": {
-      "id": "minecraft:nether_brick",
+      "id": "minecraft:prismarine_shard",
       "count": 1,
       "components": {
-        "minecraft:item_name": "{\"text\":\"Iron Blade (Short)\"}",
+        "minecraft:item_name": "{\"text\":\"Iron Slab\"}",
         "minecraft:hide_additional_tooltip": {}
       }
     }

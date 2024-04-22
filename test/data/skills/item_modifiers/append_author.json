@@ -1,0 +1,19 @@
+{
+	"function": "minecraft:set_lore",
+	"entity": "this",
+	"lore": [
+		{
+			"text": "Blacksmith: ",
+			"color": "gray",
+			"italic": false,
+			"extra": [
+				{
+					"selector": "@s"
+				}
+			]
+		}
+	],
+	"mode": "replace_section",
+	"offset": 0,
+	"size": 1
+}

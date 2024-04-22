@@ -1,0 +1,27 @@
+[
+	{
+		"function": "minecraft:copy_custom_data",
+		"source": "this",
+		"ops": [
+			{
+				"source": "SelectedItem.components.\"minecraft:custom_data\".sharpness_max",
+				"target": "sharpness",
+				"op": "replace"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.attack_damage",
+				"name": "test",
+				"amount": 0,
+				"operation": "add_multiplied_base",
+				"id": "7ecc1fc4-52f7-4829-9e0b-0228a4dc6f83",
+				"slot": "mainhand"
+			}
+		],
+		"replace": false
+	}
+]

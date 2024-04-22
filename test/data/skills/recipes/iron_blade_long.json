@@ -7,7 +7,7 @@
       "item": "minecraft:netherite_scrap"
     },
     "addition": {
-      "item": "minecraft:iron_nugget"
+      "item": "minecraft:prismarine_shard"
     },
     "result": {
       "id": "minecraft:netherite_ingot",

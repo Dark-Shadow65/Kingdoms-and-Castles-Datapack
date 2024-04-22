@@ -10,6 +10,20 @@
       "announce_to_chat": false
     },
     "criteria": {
+      "iron_billet": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_billet"
+        }
+      },
+      "iron_slab": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_slab"
+        }
+      },
       "short_blade": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
@@ -45,22 +59,56 @@
           "recipe_id": "skills:iron_axe_head"
         }
       },
+      "pickaxe_head": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_pickaxe_head"
+        }
+      },
       "axe": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
           "player": [],
           "recipe_id": "skills:iron_axe"
         }
+      },
+      "pickaxe": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_pickaxe"
+        }
+      },
+      "kreigmesser": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:kriegsmesser"
+        }
+      },
+      "messer": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:messer"
+        }
       }
     },
     "requirements": [
       [
+        "iron_billet",
+        "iron_slab",
         "short_blade",
         "medium_blade",
         "long_blade",
         "longsword",
         "axe_head",
-        "axe"
+        "pickaxe_head",
+        "axe",
+        "pickaxe",
+        "kreigmesser",
+        "messer"
       ]
     ],
     "rewards": {
