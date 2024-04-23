@@ -86,7 +86,7 @@
 				]
 			},
 			{
-				"text": "Sharpness Bonus: ",
+				"text": "Sharpness Multiplier: ",
 				"color": "gold",
 				"italic": false,
 				"extra": [
@@ -110,7 +110,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"text": "Efficiency Bonus: ",
+				"text": "Efficiency Multiplier: ",
 				"color": "gold",
 				"italic": false,
 				"extra": [
@@ -136,7 +136,8 @@
 						"mainhand": {
 							"items": [
                                 "minecraft:iron_axe",
-                                "minecraft:iron_hoe"
+                                "minecraft:iron_hoe",
+								"minecraft:iron_pickaxe"
                             ]
 						}
 					}

@@ -3,6 +3,7 @@ scoreboard players add @s skills.blacksmithing.xp 5
 
 data modify storage skills.blacksmithing.bonus type set value "minecraft:netherite_sword"
 data modify storage skills.blacksmithing.bonus name set value "Longsword"
+data modify storage skills.blacksmithing.bonus attack_speed_debuff set value -3
 
 scoreboard players operation apply_blacksmith_skill skills.blacksmithing.sharpness_bonus = @s skills.blacksmithing.sharpness_bonus
 execute store result storage skills.blacksmithing.bonus sharpness_bonus long 1 run scoreboard players operation apply_blacksmith_skill skills.blacksmithing.sharpness_bonus += floor skills.blacksmithing.skillmath

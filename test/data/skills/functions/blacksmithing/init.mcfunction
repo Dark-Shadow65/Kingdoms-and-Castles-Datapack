@@ -20,7 +20,7 @@ scoreboard players set kriegmesser_damage_floor skills.blacksmithing.skillmath 3
 
 scoreboard players set messer_damage_floor skills.blacksmithing.skillmath 2
 
-scoreboard players set iron_axe_efficiency_floor skills.blacksmithing.skillmath 4
+scoreboard players set iron_tool_efficiency_floor skills.blacksmithing.skillmath 4
 
 data modify storage skills.blacksmithing damage_floor_dull set value 1
 
