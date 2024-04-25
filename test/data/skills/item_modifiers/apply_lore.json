@@ -1,0 +1,64 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "Blacksmith: ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Sharp Hits Left: ",
+          "color": "gray",
+          "italic": false,
+          "extra": [
+            {
+              "nbt": "SelectedItem.components.\"minecraft:custom_data\".sharpness",
+              "entity": "@s"
+            }
+          ]
+        },
+        {
+          "text": "- Bonuses -",
+          "color": "gold"
+        },
+        {
+          "text": "Damage Multiplier: ",
+          "color": "gold",
+          "italic": false,
+          "extra": [
+            {
+              "nbt": "SelectedItem.components.\"minecraft:custom_data\".damage_bonus",
+              "entity": "@s",
+              "interpret": false,
+              "extra": [
+                {
+                  "text": "%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+            "text": "Durability Multiplier: ",
+            "color": "gold",
+            "italic": false,
+            "extra": [
+              {
+                "nbt": "SelectedItem.components.\"minecraft:custom_data\".durability_bonus",
+                "entity": "@s",
+                "interpret": false,
+                "extra": [
+                  {
+                    "text": "%"
+                  }
+                ]
+              }
+            ]
+          }
+      ],
+      "mode": "replace_all"
+    }
+  ]
+  

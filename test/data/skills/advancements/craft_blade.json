@@ -1,0 +1,69 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:chiseled_red_sandstone"
+      },
+      "title": "",
+      "description": "",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "criteria": {
+      "short_blade": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_blade_short"
+        }
+      },
+      "medium_blade": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_blade_medium"
+        }
+      },
+      "long_blade": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_blade_long"
+        }
+      },
+      "longsword": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:longsword"
+        }
+      },
+      "axe_head": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_axe_head"
+        }
+      },
+      "axe": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_axe"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "short_blade",
+        "medium_blade",
+        "long_blade",
+        "longsword",
+        "axe_head",
+        "axe"
+      ]
+    ],
+    "rewards": {
+        "function": "skills:advancement_functions/return_hammer"
+      }
+  }

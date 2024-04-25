@@ -1,0 +1,2 @@
+$give @s $(type)[minecraft:attribute_modifiers={modifiers:[{type:"generic.attack_damage",slot:"mainhand", name:"generic.attack_damage", amount:$(damage), operation:"add_value", uuid:[I; 42853, 1689024593, -201178, -1559272105]}]},minecraft:max_damage=$(durability),custom_data={"bonus_applied":true,"sharpness":0,"sharpness_bonus":$(sharpness_bonus),"damage_bonus":$(damage_bonus),"durability_bonus":$(durability_bonus),"efficiency_bonus":$(efficiency_bonus),"author":0}]
+$say $(damage_bonus)

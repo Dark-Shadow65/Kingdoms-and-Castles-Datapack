@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "base": {
+      "item": "minecraft:netherite_sword"
+    },
+    "addition": {
+      "item": "minecraft:water_bucket"
+    },
+    "result": {
+      "id": "minecraft:netherite_sword",
+      "count": 1,
+      "components": {
+        "minecraft:lore": [
+            "[{\"text\":\"Sharp\",\"color\":\"green\",\"italic\":false}]"
+          ]
+      }
+    }
+  }

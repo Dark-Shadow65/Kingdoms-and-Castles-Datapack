@@ -1,6 +1,58 @@
 {
 	"pack": {
-		"pack_format": 40,
+		"pack_format": 41,
 		"description": "Test"
-	}
+	},
+	"filter": {
+		"block": [
+		  {
+			"namespace": "minecraft",
+			"path": "recipes/iron_ingot_from_blasting_deepslate_iron_ore.json"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipes/iron_ingot_from_blasting_iron_ore.json"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipes/iron_ingot_from_blasting_raw_iron"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipes/iron_ingot_from_smelting_deepslate_iron_ore"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipes/iron_ingot_from_smelting_iron_ore.json"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipes/iron_ingot_from_smelting_raw_iron.json"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipes/gold_ingot_from_blasting_deepslate_gold_ore.json"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipes/gold_ingot_from_blasting_gold_ore.json"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipes/gold_ingot_from_blasting_raw_gold.json"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipes/gold_ingot_from_smelting_deepslate_gold_ore.json"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipes/gold_ingot_from_smelting_gold_ore.json"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipes/gold_ingot_from_smelting_raw_gold.json"
+		  }
+		]
+	  }
 }
