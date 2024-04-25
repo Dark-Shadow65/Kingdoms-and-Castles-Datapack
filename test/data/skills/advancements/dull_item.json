@@ -1,0 +1,28 @@
+{
+	"criteria": {
+		"player_damaged_entity": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": []
+			}
+		},
+		"player_used_tool": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"player": [],
+				"item": {
+					"items": "#skills:sharp_items"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"player_damaged_entity",
+            "player_used_tool"
+		]
+	],
+	"rewards": {
+		"function": "skills:advancement_functions/blacksmithing/dull_item"
+	}
+}

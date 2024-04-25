@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "base": {
+        "item": "minecraft:iron_nugget"
+    },
+    "addition": {
+        "item": "minecraft:iron_nugget"
+    },
+    "result": {
+      "id": "minecraft:blaze_rod",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"text\":\"Iron Billet\"}",
+        "minecraft:hide_additional_tooltip": {}
+      }
+    }
+  }

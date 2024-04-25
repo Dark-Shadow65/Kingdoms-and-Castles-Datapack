@@ -1,64 +1,157 @@
 [
-    {
-      "function": "minecraft:set_lore",
-      "entity": "this",
-      "lore": [
-        {
-          "text": "Blacksmith: ",
-          "color": "gray",
-          "italic": false
-        },
-        {
-          "text": "Sharp Hits Left: ",
-          "color": "gray",
-          "italic": false,
-          "extra": [
-            {
-              "nbt": "SelectedItem.components.\"minecraft:custom_data\".sharpness",
-              "entity": "@s"
-            }
-          ]
-        },
-        {
-          "text": "- Bonuses -",
-          "color": "gold"
-        },
-        {
-          "text": "Damage Multiplier: ",
-          "color": "gold",
-          "italic": false,
-          "extra": [
-            {
-              "nbt": "SelectedItem.components.\"minecraft:custom_data\".damage_bonus",
-              "entity": "@s",
-              "interpret": false,
-              "extra": [
-                {
-                  "text": "%"
-                }
-              ]
-            }
-          ]
-        },
-        {
-            "text": "Durability Multiplier: ",
-            "color": "gold",
-            "italic": false,
-            "extra": [
-              {
-                "nbt": "SelectedItem.components.\"minecraft:custom_data\".durability_bonus",
-                "entity": "@s",
-                "interpret": false,
-                "extra": [
-                  {
-                    "text": "%"
-                  }
-                ]
-              }
-            ]
-          }
-      ],
-      "mode": "replace_all"
-    }
-  ]
-  
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Blacksmith: ",
+				"color": "gray",
+				"italic": false
+			}
+		],
+		"mode": "replace_all"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Sharp Hits Left: ",
+				"color": "gray",
+				"italic": false,
+				"extra": [
+					{
+						"nbt": "SelectedItem.components.\"minecraft:custom_data\".sharpness",
+						"entity": "@s"
+					}
+				]
+			}
+		],
+		"mode": "append"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "- Blacksmith Bonuses -",
+				"color": "gold",
+				"italic": false
+			}
+		],
+		"mode": "append"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Durability Multiplier: ",
+				"color": "gold",
+				"italic": false,
+				"extra": [
+					{
+						"nbt": "SelectedItem.components.\"minecraft:custom_data\".durability_bonus",
+						"entity": "@s",
+						"interpret": false,
+						"extra": [
+							{
+								"text": "%"
+							}
+						]
+					}
+				]
+			}
+		],
+		"mode": "append"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Damage Multiplier: ",
+				"color": "gold",
+				"italic": false,
+				"extra": [
+					{
+						"nbt": "SelectedItem.components.\"minecraft:custom_data\".damage_bonus",
+						"entity": "@s",
+						"extra": [
+							{
+								"text": "%"
+							}
+						]
+					}
+				]
+			},
+			{
+				"text": "Sharpness Multiplier: ",
+				"color": "gold",
+				"italic": false,
+				"extra": [
+					{
+						"nbt": "SelectedItem.components.\"minecraft:custom_data\".sharpness_bonus",
+						"entity": "@s",
+						"interpret": false,
+						"extra": [
+							{
+								"text": "%"
+							}
+						]
+					}
+				]
+			}
+		],
+		"mode": "append",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": "#skills:sharp_items"
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Efficiency Multiplier: ",
+				"color": "gold",
+				"italic": false,
+				"extra": [
+					{
+						"nbt": "SelectedItem.components.\"minecraft:custom_data\".efficiency_bonus",
+						"entity": "@s",
+						"extra": [
+							{
+								"text": "%"
+							}
+						]
+					}
+				]
+			}
+		],
+		"mode": "append",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": "#skills:tools"
+						}
+					}
+				}
+			}
+		]
+	}
+]

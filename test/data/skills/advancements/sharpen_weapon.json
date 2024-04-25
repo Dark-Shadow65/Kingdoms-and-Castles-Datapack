@@ -1,0 +1,38 @@
+{
+	"criteria": {
+		"example": {
+			"trigger": "minecraft:default_block_use",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": "#skills:sharp_items"
+								}
+							}
+						}
+					}
+				],
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:grindstone",
+								"state": {
+									"face": "floor"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "skills:advancement_functions/blacksmithing/sharp_test"
+	}
+}

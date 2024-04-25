@@ -4,7 +4,7 @@
       "item": "minecraft:netherite_upgrade_smithing_template"
     },
     "base": {
-        "item": "minecraft:iron_ingot"
+        "item": "minecraft:prismarine_shard"
     },
     "addition": {
         "item": "minecraft:iron_nugget"

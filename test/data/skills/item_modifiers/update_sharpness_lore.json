@@ -1,0 +1,74 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Sharp Hits Left: ",
+				"color": "gray",
+				"italic": false,
+				"extra": [
+					{
+						"nbt": "SelectedItem.components.\"minecraft:custom_data\".sharpness",
+						"entity": "@s",
+						"interpret": false
+					}
+				]
+			}
+		],
+		"mode": "replace_section",
+		"offset": 1,
+		"size": 1
+	},
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.attack_damage",
+				"name": "damage_debuff",
+				"amount": -0.5,
+				"operation": "add_multiplied_base",
+				"id": "7ecc1fc4-52f7-4829-9e0b-0228a4dc6f83",
+				"slot": "mainhand"
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:reference",
+				"name": "skills:blacksmithing/is_dull"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:player.block_break_speed",
+				"name": "efficiency_debuff",
+				"amount": -0.75,
+				"operation": "add_multiplied_base",
+				"id": "37ed3dfa-f517-4cc7-a3be-abb93c27e872",
+				"slot": "mainhand"
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:reference",
+				"name": "skills:blacksmithing/is_dull"
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"slots": {
+						"weapon.mainhand": {
+							"items": "#skills:tools"
+						}
+					}
+				}
+			}
+		]
+	}
+]

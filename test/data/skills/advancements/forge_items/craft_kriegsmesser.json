@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone"
+    },
+    "title": "",
+    "description": "",
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "sharpen_longsword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": [],
+        "recipe_id": "skills:kriegsmesser"
+      }
+    }
+  },
+  "rewards": {
+    "function": "skills:advancement_functions/blacksmithing/apply_bonuses/apply_bonus_kriegmesser"
+  }
+}

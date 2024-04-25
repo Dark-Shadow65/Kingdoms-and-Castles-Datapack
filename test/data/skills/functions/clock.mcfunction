@@ -3,5 +3,6 @@ function skills:woodcutting/clocktick
 function skills:mining/clocktick
 =======
 function skills:blacksmithing/clocktick
->>>>>>> b10065b32eb261c4bf685019d27d08fe802a3135
+function skills:swords/clocktick
+function skills:axes/clocktick
 scoreboard players reset dummy skills.clock

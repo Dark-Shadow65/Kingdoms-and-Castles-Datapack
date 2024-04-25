@@ -12,11 +12,11 @@
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "player": [],
-        "recipe_id": "skills:longsword"
+        "recipe_id": "skills:iron_axe"
       }
     }
   },
   "rewards": {
-    "function": "skills:advancement_functions/blacksmithing/apply_bonus_longsword"
+    "function": "skills:advancement_functions/blacksmithing/apply_bonuses/apply_bonus_iron_axe"
   }
 }
