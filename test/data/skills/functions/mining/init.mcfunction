@@ -1,7 +1,6 @@
 scoreboard objectives add skills.mining dummy
 scoreboard objectives add skills.mining.xp dummy
 scoreboard objectives add skills.mining.xpnxtlvl dummy
-data modify storage skills.mining skillmultiplier set value 3
 data modify storage skills.mining xpnxtlvl set value 5
 
 scoreboard objectives add skills.mining.blocks.stone minecraft.mined:stone

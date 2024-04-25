@@ -25,6 +25,3 @@ execute as @a if score @s skills.mining.blocks.lapis_ore matches 1.. run functio
 execute as @a if score @s skills.mining.blocks.deepslate_lapis_ore matches 1.. run function skills:mining/onbreak/deepslate_lapis_ore
 execute as @a if score @s skills.mining.blocks.diamond_ore matches 1.. run function skills:mining/onbreak/diamond_ore
 execute as @a if score @s skills.mining.blocks.deepslate_diamond_ore matches 1.. run function skills:mining/onbreak/deepslate_diamond_ore
-
-execute as @a run scoreboard players operation @s skills.mining.applyskill = @s skills.mining
-execute as @a run scoreboard players operation @s skills.mining.applyskill /= @s skills.mining.skilldivisor

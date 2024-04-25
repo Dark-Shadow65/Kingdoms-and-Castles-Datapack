@@ -1,7 +1,5 @@
 function skills:woodcutting/tick
-<<<<<<< HEAD
 function skills:mining/tick
-=======
 function skills:blacksmithing/tick
 function skills:swords/tick
 function skills:axes/tick
