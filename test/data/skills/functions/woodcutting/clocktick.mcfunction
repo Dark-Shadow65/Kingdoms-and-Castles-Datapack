@@ -11,6 +11,3 @@ execute as @a if score @s skills.woodcutting.woods.acacia matches 1.. run functi
 execute as @a if score @s skills.woodcutting.woods.darkoak matches 1.. run function skills:woodcutting/onbreak/darkoak
 execute as @a if score @s skills.woodcutting.woods.mangrove matches 1.. run function skills:woodcutting/onbreak/mangrove
 execute as @a if score @s skills.woodcutting.woods.cherry matches 1.. run function skills:woodcutting/onbreak/cherry
-
-execute as @a run scoreboard players operation @s skills.woodcutting.applyskill = @s skills.woodcutting
-execute as @a run scoreboard players operation @s skills.woodcutting.applyskill /= @s skills.woodcutting.skilldivisor

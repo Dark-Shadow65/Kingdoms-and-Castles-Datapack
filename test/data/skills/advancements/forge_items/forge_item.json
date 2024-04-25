@@ -93,6 +93,13 @@
           "player": [],
           "recipe_id": "skills:messer"
         }
+      },
+      "warhammer": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_warhammer"
+        }
       }
     },
     "requirements": [
@@ -108,10 +115,11 @@
         "axe",
         "pickaxe",
         "kreigmesser",
-        "messer"
+        "messer",
+        "warhammer"
       ]
     ],
     "rewards": {
-        "function": "skills:advancement_functions/return_hammer"
+        "function": "skills:advancement_functions/blacksmithing/return_hammer"
       }
   }

@@ -1,13 +1,4 @@
 {
-	"display": {
-		"icon": {
-			"id": "minecraft:stone"
-		},
-		"title": "",
-		"description": "",
-		"show_toast": true,
-		"announce_to_chat": true
-	},
 	"criteria": {
 		"player_destroyed_block": {
 			"trigger": "minecraft:item_durability_changed",

@@ -103,7 +103,20 @@
 				]
 			}
 		],
-		"mode": "append"
+		"mode": "append",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": "#skills:sharp_items"
+						}
+					}
+				}
+			}
+		]
 	},
 	{
 		"function": "minecraft:set_lore",
@@ -134,11 +147,7 @@
 				"predicate": {
 					"equipment": {
 						"mainhand": {
-							"items": [
-                                "minecraft:iron_axe",
-                                "minecraft:iron_hoe",
-								"minecraft:iron_pickaxe"
-                            ]
+							"items": "#skills:tools"
 						}
 					}
 				}

@@ -1,0 +1,25 @@
+{
+	"function": "minecraft:set_attributes",
+	"modifiers": [
+		{
+			"attribute": "minecraft:player.block_break_speed",
+			"name": "skill_bonus",
+			"amount": {
+				"type": "minecraft:score",
+				"target": "this",
+				"score": "skills.woodcutting",
+				"scale": 0.02
+			},
+			"operation": "add_multiplied_base",
+			"id": "64759d82-ca5c-4e0c-9feb-b22057937540",
+			"slot": "mainhand"
+		}
+	],
+    "replace": false,
+	"conditions": [
+		{
+			"condition": "minecraft:reference",
+			"name": "skills:woodcutting/holding_axe"
+		}
+	]
+}

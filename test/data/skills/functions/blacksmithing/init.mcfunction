@@ -14,11 +14,14 @@ scoreboard players set axe_sharpness_floor skills.blacksmithing.skillmath 200
 scoreboard players set sword_sharpness_floor skills.blacksmithing.skillmath 100
 scoreboard players set iron_durability_floor skills.blacksmithing.skillmath 1500
 
-scoreboard players set longsword_damage_floor skills.blacksmithing.skillmath 4
+scoreboard players set warhammer_damage_floor skills.blacksmithing.skillmath 6
+scoreboard players set warhammer_sharpness_floor skills.blacksmithing.skillmath 500
 
-scoreboard players set kriegmesser_damage_floor skills.blacksmithing.skillmath 3
+scoreboard players set longsword_damage_floor skills.blacksmithing.skillmath 5
 
-scoreboard players set messer_damage_floor skills.blacksmithing.skillmath 2
+scoreboard players set kriegmesser_damage_floor skills.blacksmithing.skillmath 4
+
+scoreboard players set messer_damage_floor skills.blacksmithing.skillmath 3
 
 scoreboard players set iron_tool_efficiency_floor skills.blacksmithing.skillmath 4
 

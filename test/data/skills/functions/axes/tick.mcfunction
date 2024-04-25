@@ -1,0 +1,1 @@
+execute as @a if predicate skills:axes/holding_axe run item modify entity @s weapon.mainhand skills:axes/apply_skill

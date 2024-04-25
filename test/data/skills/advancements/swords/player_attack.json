@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"player_attacked_entity": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "skills:swords/holding_sword"
+					}
+				]
+			}
+		}
+	},
+    "rewards": {
+		"function": "skills:advancement_functions/swords/give_xp"
+	}
+}

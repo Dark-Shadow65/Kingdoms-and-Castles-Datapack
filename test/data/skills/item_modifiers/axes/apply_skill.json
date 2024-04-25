@@ -1,0 +1,38 @@
+{
+	"function": "minecraft:set_attributes",
+	"modifiers": [
+		{
+			"attribute": "minecraft:generic.attack_damage",
+			"name": "skills_attack_bonus",
+			"amount": {
+				"type": "minecraft:score",
+				"target": "this",
+				"score": "skills.axes.damage_bonus",
+				"scale": 0.01
+			},
+			"operation": "add_multiplied_base",
+			"id": "6d87f6ff-c237-4762-9189-49d54d12c6f2",
+			"slot": "mainhand"
+		},
+		{
+			"attribute": "minecraft:generic.attack_speed",
+			"name": "skills_speed_bonus",
+			"amount": {
+				"type": "minecraft:score",
+				"target": "this",
+				"score": "skills.axes.speed_bonus",
+				"scale": 0.01
+			},
+			"operation": "add_multiplied_base",
+			"id": "3ee8aea5-d930-47a2-8bd4-bb693fcbffbf",
+			"slot": "mainhand"
+		}
+	],
+	"replace": false,
+	"conditions": [
+		{
+			"condition": "minecraft:reference",
+			"name": "skills:axes/holding_axe"
+		}
+	]
+}
