@@ -1,0 +1,12 @@
+{
+	"condition": "minecraft:value_check",
+	"value": {
+		"type": "minecraft:storage",
+		"storage": "minecraft:skills.archery",
+		"path": "life"
+	},
+	"range": {
+		"min": 15,
+		"max": 100000000000
+	}
+}

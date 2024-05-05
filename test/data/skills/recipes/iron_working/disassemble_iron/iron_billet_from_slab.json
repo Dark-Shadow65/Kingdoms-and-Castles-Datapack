@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:prismarine_shard"
+		}
+	],
+	"result": {
+		"id": "minecraft:blaze_rod",
+		"count": 2,
+		"components": {
+		  "minecraft:item_name": "{\"text\":\"Iron Billet\"}",
+		  "minecraft:hide_additional_tooltip": {}
+		}
+	  }
+}

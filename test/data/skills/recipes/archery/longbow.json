@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " sS",
+      "s S",
+      " sS"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:string"
+      },
+      "s": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "id": "minecraft:bow",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"text\":\"Longbow\"}",
+        "minecraft:custom_model_data":1,
+        "minecraft:custom_data": {"accuracy":20,"accuracy_scalar":50,"weight":7}
+      }
+    }
+  }

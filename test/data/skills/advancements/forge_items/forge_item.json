@@ -24,6 +24,13 @@
           "recipe_id": "skills:iron_slab"
         }
       },
+      "iron_ingot": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_ingot"
+        }
+      },
       "short_blade": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
@@ -106,6 +113,7 @@
       [
         "iron_billet",
         "iron_slab",
+        "iron_ingot",
         "short_blade",
         "medium_blade",
         "long_blade",

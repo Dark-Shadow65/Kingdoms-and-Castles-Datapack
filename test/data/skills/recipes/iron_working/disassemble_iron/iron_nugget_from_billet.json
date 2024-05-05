@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:blaze_rod"
+		}
+	],
+	"result": {
+		"id": "minecraft:iron_nugget",
+		"count": 2,
+		"components": {
+		  "minecraft:item_name": "{\"text\":\"Iron Billet\"}",
+		  "minecraft:hide_additional_tooltip": {}
+		}
+	  }
+}

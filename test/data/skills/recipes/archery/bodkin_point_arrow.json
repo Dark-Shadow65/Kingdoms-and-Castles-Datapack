@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  i",
+      " s ",
+      "f  "
+    ],
+    "key": {
+      "i": {
+        "item": "minecraft:iron_nugget"
+      },
+      "f": {
+        "item": "minecraft:feather"
+      },
+      "s": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "id": "minecraft:arrow",
+      "count": 1,
+      "components": {
+        "damage":1,
+        "minecraft:item_name": "{\"text\":\"Bodkin Point Arrow\"}",
+        "minecraft:custom_model_data": 2,
+        "minecraft:custom_data": {"damage":1,"pierce":20}
+      }
+    }
+  }

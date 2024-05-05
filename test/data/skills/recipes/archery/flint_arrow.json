@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  F",
+      " s ",
+      "f  "
+    ],
+    "key": {
+      "f": {
+        "item": "minecraft:feather"
+      },
+      "F": {
+        "item": "minecraft:flint"
+      },
+      "s": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "id": "minecraft:arrow",
+      "count": 1,
+      "components": {
+        "damage":1,
+        "minecraft:item_name": "{\"text\":\"Flint Arrow\"}",
+        "minecraft:custom_model_data": 4,
+        "minecraft:custom_data": {"damage":1,"pierce":0}
+      }
+    }
+  }

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  s",
+      " s ",
+      "f  "
+    ],
+    "key": {
+      "f": {
+        "item": "minecraft:feather"
+      },
+      "s": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "id": "minecraft:arrow",
+      "count": 1,
+      "components": {
+        "damage":0,
+        "minecraft:item_name": "{\"text\":\"Wooden Arrow\"}",
+        "minecraft:custom_model_data": 3,
+        "minecraft:custom_data": {"damage":0,"pierce":0}
+      }
+    }
+  }

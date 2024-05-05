@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " Ss",
+      " sS",
+      "f  "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:string"
+      },
+      "f": {
+        "item": "minecraft:feather"
+      },
+      "s": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "id": "minecraft:arrow",
+      "count": 1,
+      "components": {
+        "damage":0,
+        "minecraft:item_name": "{\"text\":\"Cloth Arrow\"}",
+        "minecraft:custom_model_data": 5,
+        "minecraft:custom_data": {"damage":0,"pierce":0}
+      }
+    }
+  }

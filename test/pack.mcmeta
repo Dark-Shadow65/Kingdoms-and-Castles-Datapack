@@ -52,6 +52,22 @@
 		  {
 			"namespace": "minecraft",
 			"path": "recipes/gold_ingot_from_smelting_raw_gold.json"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipes/iron_ingot_from_nuggets"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipes/iron_nugget"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipes/blaze_powder"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipes/bow"
 		  }
 		]
 	  }

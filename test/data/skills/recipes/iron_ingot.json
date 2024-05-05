@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "base": {
+        "item": "minecraft:prismarine_shard"
+    },
+    "addition": {
+        "item": "minecraft:prismarine_shard"
+    },
+    "result": {
+      "id": "minecraft:iron_ingot",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"text\":\"Iron Ingot\"}",
+        "minecraft:hide_additional_tooltip": {}
+      }
+    }
+  }

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  i",
+      " s ",
+      "f  "
+    ],
+    "key": {
+      "i": {
+        "item": "minecraft:blaze_rod"
+      },
+      "f": {
+        "item": "minecraft:feather"
+      },
+      "s": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "id": "minecraft:arrow",
+      "count": 1,
+      "components": {
+        "damage":3,
+        "minecraft:item_name": "{\"text\":\"Broadhead Arrow\"}",
+        "minecraft:custom_model_data": 1,
+        "minecraft:custom_data": {"damage":3,"pierce":0}
+      }
+    }
+  }

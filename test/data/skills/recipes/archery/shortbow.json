@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " s",
+      "sS",
+      " s"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:string"
+      },
+      "s": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "id": "minecraft:bow",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"text\":\"Shortbow\"}",
+        "minecraft:custom_data": {"accuracy":50,"accuracy_scalar":30,"weight":3}
+      }
+    }
+  }

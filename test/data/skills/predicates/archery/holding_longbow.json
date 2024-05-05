@@ -1,0 +1,14 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"slots": {
+			"weapon.mainhand": {
+				"items": "minecraft:bow",
+				"components": {
+					"minecraft:custom_model_data": 1
+				}
+			}
+		}
+	}
+}

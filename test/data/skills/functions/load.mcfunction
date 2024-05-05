@@ -8,5 +8,6 @@ scoreboard objectives add skills.cooking dummy
 scoreboard objectives add skills.farming dummy
 function skills:swords/init
 function skills:axes/init
+function skills:archery/init
 scoreboard objectives add skills.clock dummy
 tellraw @a {"text":" \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 ","strikethrough":true}
