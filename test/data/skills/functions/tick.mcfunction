@@ -4,6 +4,7 @@ function skills:blacksmithing/tick
 function skills:swords/tick
 function skills:axes/tick
 function skills:archery/tick
+function skills:farming/tick
 scoreboard players add dummy skills.clock 1
 execute if score dummy skills.clock matches 120.. run function skills:clock
 
