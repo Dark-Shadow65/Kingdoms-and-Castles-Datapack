@@ -1,73 +1,73 @@
 {
 	"pack": {
-		"pack_format": 41,
+		"pack_format": 45,
 		"description": "Test"
 	},
 	"filter": {
 		"block": [
 		  {
 			"namespace": "minecraft",
-			"path": "recipes/iron_ingot_from_blasting_deepslate_iron_ore.json"
+			"path": "recipe/iron_ingot_from_blasting_deepslate_iron_ore.json"
 		  },
 		  {
 			"namespace": "minecraft",
-			"path": "recipes/iron_ingot_from_blasting_iron_ore.json"
+			"path": "recipe/iron_ingot_from_blasting_iron_ore.json"
 		  },
 		  {
 			"namespace": "minecraft",
-			"path": "recipes/iron_ingot_from_blasting_raw_iron"
+			"path": "recipe/iron_ingot_from_blasting_raw_iron"
 		  },
 		  {
 			"namespace": "minecraft",
-			"path": "recipes/iron_ingot_from_smelting_deepslate_iron_ore"
+			"path": "recipe/iron_ingot_from_smelting_deepslate_iron_ore"
 		  },
 		  {
 			"namespace": "minecraft",
-			"path": "recipes/iron_ingot_from_smelting_iron_ore.json"
+			"path": "recipe/iron_ingot_from_smelting_iron_ore.json"
 		  },
 		  {
 			"namespace": "minecraft",
-			"path": "recipes/iron_ingot_from_smelting_raw_iron.json"
+			"path": "recipe/iron_ingot_from_smelting_raw_iron.json"
 		  },
 		  {
 			"namespace": "minecraft",
-			"path": "recipes/gold_ingot_from_blasting_deepslate_gold_ore.json"
+			"path": "recipe/gold_ingot_from_blasting_deepslate_gold_ore.json"
 		  },
 		  {
 			"namespace": "minecraft",
-			"path": "recipes/gold_ingot_from_blasting_gold_ore.json"
+			"path": "recipe/gold_ingot_from_blasting_gold_ore.json"
 		  },
 		  {
 			"namespace": "minecraft",
-			"path": "recipes/gold_ingot_from_blasting_raw_gold.json"
+			"path": "recipe/gold_ingot_from_blasting_raw_gold.json"
 		  },
 		  {
 			"namespace": "minecraft",
-			"path": "recipes/gold_ingot_from_smelting_deepslate_gold_ore.json"
+			"path": "recipe/gold_ingot_from_smelting_deepslate_gold_ore.json"
 		  },
 		  {
 			"namespace": "minecraft",
-			"path": "recipes/gold_ingot_from_smelting_gold_ore.json"
+			"path": "recipe/gold_ingot_from_smelting_gold_ore.json"
 		  },
 		  {
 			"namespace": "minecraft",
-			"path": "recipes/gold_ingot_from_smelting_raw_gold.json"
+			"path": "recipe/gold_ingot_from_smelting_raw_gold.json"
 		  },
 		  {
 			"namespace": "minecraft",
-			"path": "recipes/iron_ingot_from_nuggets"
+			"path": "recipe/iron_ingot_from_nuggets"
 		  },
 		  {
 			"namespace": "minecraft",
-			"path": "recipes/iron_nugget"
+			"path": "recipe/iron_nugget"
 		  },
 		  {
 			"namespace": "minecraft",
-			"path": "recipes/blaze_powder"
+			"path": "recipe/blaze_powder"
 		  },
 		  {
 			"namespace": "minecraft",
-			"path": "recipes/bow"
+			"path": "recipe/bow"
 		  }
 		]
 	  }
