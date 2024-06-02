@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+    "skills:wheat_to_flour",
+    "skills:wheat_to_oats",
+    "skills:arrow_deflect"
+    ]
+}
