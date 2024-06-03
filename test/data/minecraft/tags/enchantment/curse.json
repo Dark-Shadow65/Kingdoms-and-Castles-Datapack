@@ -1,8 +1,8 @@
 {
     "replace": false,
     "values": [
-    "skills:wheat_to_flour",
-    "skills:wheat_to_oats",
-    "skills:arrow_deflect"
+    "skills:mill_wheat",
+    "skills:arrow_deflect",
+    "skills:sharpen_item"
     ]
 }

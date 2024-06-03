@@ -19,7 +19,7 @@
 			"minecraft:lore": [
 				"[{\"text\":\"Unsharpend\",\"color\":\"red\",\"italic\":false}]"
 			],
-			"minecraft:custom_data": {"bonus_applied":false,"sharp":false}
+			"minecraft:custom_data": {"bonus_applied":false}
 		}
 	}
 }

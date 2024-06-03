@@ -68,6 +68,14 @@
 		  {
 			"namespace": "minecraft",
 			"path": "recipe/bow"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/pumpkin_pie"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "advancement"
 		  }
 		]
 	  }

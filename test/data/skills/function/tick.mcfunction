@@ -1,12 +1,15 @@
 function skills:woodcutting/tick
 function skills:mining/tick
 function skills:blacksmithing/tick
+function skills:culiary/tick
 function skills:swords/tick
 function skills:axes/tick
 function skills:archery/tick
 function skills:farming/tick
 scoreboard players add dummy skills.clock 1
 execute if score dummy skills.clock matches 120.. run function skills:clock
+
+clear @a *[minecraft:custom_data={"bonus_applied":false}] 1
 
 #execute as @e[type=minecraft:arrow,nbt={item:{components:{"minecraft:custom_data":{test:1b}}}}] run data modify entity @s Motion set value [0.1d,0d,0.1d]
 #execute at @e[type=minecraft:armor_stand] as @e[type=minecraft:arrow,distance=..5] run function skills:reflect_test

@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "mf",
+      "fM"
+    ],
+    "key": {
+      "m": {
+        "tag": "skills:cooked_meat"
+      },
+      "f": {
+        "item": "minecraft:glowstone_dust"
+      },
+      "M": {
+        "item": "minecraft:milk_bucket"
+      }
+    },
+    "result": {
+      "id": "minecraft:pumpkin_pie",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"text\":\"Meat Pie\"}",
+        "minecraft:hide_additional_tooltip": {},
+        "minecraft:custom_data": {"bonus_applied":false}
+      }
+    }
+  }

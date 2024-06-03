@@ -3,7 +3,7 @@ scoreboard objectives add skills.math dummy
 function skills:woodcutting/init
 function skills:mining/init
 function skills:blacksmithing/init
-scoreboard objectives add skills.cooking dummy
+function skills:culinary/init
 function skills:farming/init
 function skills:swords/init
 function skills:axes/init

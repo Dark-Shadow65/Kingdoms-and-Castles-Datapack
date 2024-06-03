@@ -1,4 +1,0 @@
-execute at @a run fill ~5 ~5 ~5 ~-5 ~-5 ~-5 minecraft:grindstone[facing=north,face=floor] replace minecraft:nether_brick_stairs[facing=north,half=bottom]
-execute at @a run fill ~5 ~5 ~5 ~-5 ~-5 ~-5 minecraft:grindstone[facing=east,face=floor] replace minecraft:nether_brick_stairs[facing=east,half=bottom]
-execute at @a run fill ~5 ~5 ~5 ~-5 ~-5 ~-5 minecraft:grindstone[facing=south,face=floor] replace minecraft:nether_brick_stairs[facing=south,half=bottom]
-execute at @a run fill ~5 ~5 ~5 ~-5 ~-5 ~-5 minecraft:grindstone[facing=west,face=floor] replace minecraft:nether_brick_stairs[facing=west,half=bottom]
