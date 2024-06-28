@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:smelting",
+	"category": "food",
+	"ingredient": {
+		"item": "minecraft:beef"
+	},
+	"result": {
+		"id": "minecraft:cooked_beef",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 5,
+                "saturation": 6
+            }
+        }
+	},
+	"cookingtime": 500
+}

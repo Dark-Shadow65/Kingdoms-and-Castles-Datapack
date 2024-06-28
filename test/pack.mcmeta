@@ -1,6 +1,6 @@
 {
 	"pack": {
-		"pack_format": 45,
+		"pack_format": 48,
 		"description": "Test"
 	},
 	"filter": {
@@ -76,6 +76,10 @@
 		  {
 			"namespace": "minecraft",
 			"path": "advancement"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/beetroot_soup"
 		  }
 		]
 	  }

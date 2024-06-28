@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:smelting",
+	"category": "food",
+	"ingredient": {
+		"item": "minecraft:rabbit"
+	},
+	"result": {
+		"id": "minecraft:cooked_rabbit",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 3
+            }
+        }
+	},
+	"cookingtime": 500
+}

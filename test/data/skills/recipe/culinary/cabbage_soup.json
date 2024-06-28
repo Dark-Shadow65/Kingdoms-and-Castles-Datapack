@@ -1,22 +1,22 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-      "dm",
-      "dd"
+      "ccc",
+      "ccc",
+      " b "
     ],
     "key": {
-      "m": {
-        "tag": "skills:cooked_meat"
+      "c": {
+        "item": "minecraft:beetroot"
       },
-      "d": {
-        "item": "minecraft:blaze_powder"
+      "b": {
+        "item": "minecraft:bowl"
       }
     },
     "result": {
-      "id": "minecraft:pumpkin_pie",
+      "id": "minecraft:beetroot_soup",
       "count": 1,
       "components": {
-        "minecraft:item_name": "{\"text\":\"Meat Pie\"}",
         "minecraft:hide_additional_tooltip": {},
         "minecraft:custom_data": {"bonus_applied":false}
       }

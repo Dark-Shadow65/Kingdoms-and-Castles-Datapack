@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"cabbage_soup": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "skills:culinary/cabbage_soup"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"cabbage_soup"
+		]
+	],
+	"rewards": {
+		"function": "skills:advancement_functions/culinary/cook_items/cook_cabbage_soup"
+	}
+}
