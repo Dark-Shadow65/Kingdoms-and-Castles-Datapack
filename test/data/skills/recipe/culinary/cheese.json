@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:smelting",
+	"category": "food",
+	"ingredient": {
+		"item": "minecraft:milk_bucket"
+	},
+	"result": {
+		"id": "minecraft:baked_potato",
+        "components": {
+            "minecraft:item_name": "{\"text\":\"Cheese Wheel\"}",
+            "minecraft:custom_model_data": 2,
+            "minecraft:food": {
+                "nutrition": 4,
+                "saturation": 2
+            }
+        }
+	},
+	"cookingtime": 500
+}

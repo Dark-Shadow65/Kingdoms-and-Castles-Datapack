@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "dm",
+      "dd"
+    ],
+    "key": {
+      "m": {
+        "tag": "skills:cooked_meat"
+      },
+      "d": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "result": {
+      "id": "minecraft:pumpkin_pie",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"text\":\"Meat Pie\"}",
+        "minecraft:hide_additional_tooltip": {},
+        "minecraft:custom_data": {"bonus_applied":false}
+      }
+    }
+  }

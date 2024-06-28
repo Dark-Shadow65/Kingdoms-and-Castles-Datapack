@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:smelting",
+	"category": "food",
+	"ingredient": {
+		"item": "minecraft:chicken"
+	},
+	"result": {
+		"id": "minecraft:cooked_chicken",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 4,
+                "saturation": 4.5
+            }
+        }
+	},
+	"cookingtime": 500
+}

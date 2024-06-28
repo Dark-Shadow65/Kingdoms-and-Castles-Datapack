@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ccc",
+      "ccc",
+      " b "
+    ],
+    "key": {
+      "c": {
+        "item": "minecraft:beetroot"
+      },
+      "b": {
+        "item": "minecraft:bowl"
+      }
+    },
+    "result": {
+      "id": "minecraft:beetroot_soup",
+      "count": 1,
+      "components": {
+        "minecraft:hide_additional_tooltip": {},
+        "minecraft:custom_data": {"bonus_applied":false}
+      }
+    }
+  }

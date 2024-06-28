@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:water_bucket"
+		},
+        {
+			"item": "minecraft:glowstone_dust"
+		}
+	],
+	"result": {
+		"id": "minecraft:blaze_powder",
+		"count": 2,
+		"components": {
+		  "minecraft:item_name": "{\"text\":\"Dough\"}",
+		  "minecraft:hide_additional_tooltip": {}
+		}
+	}
+}
