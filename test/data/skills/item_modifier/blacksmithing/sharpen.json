@@ -1,0 +1,34 @@
+[
+	{
+		"function": "minecraft:copy_custom_data",
+		"source": "this",
+		"ops": [
+			{
+				"source": "SelectedItem.components.\"minecraft:custom_data\".sharpness_max",
+				"target": "sharpness",
+				"op": "replace"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.attack_damage",
+				"id": "damage_debuff",
+				"amount": 0,
+				"operation": "add_multiplied_base",
+				"slot": "mainhand"
+			},
+			{
+				"attribute": "minecraft:player.block_break_speed",
+				"id": "efficiency_debuff",
+				"amount": 0,
+				"operation": "add_multiplied_base",
+				"slot": "mainhand"
+			}
+		],
+		"show_in_tooltip": false,
+		"replace": false
+	}
+]

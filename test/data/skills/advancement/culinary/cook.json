@@ -1,0 +1,95 @@
+{
+	"criteria": {
+		"meatpie": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "skills:culinary/meat_pie"
+			}
+		},
+		"cooked_egg": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "skills:culinary/cooked_egg"
+			}
+		},
+		"cheese_wheel": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "skills:culinary/cheese"
+			}
+		},
+		"beef": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "skills:culinary/cooked_beef"
+			}
+		},
+		"chicken": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "skills:culinary/cooked_chicken"
+			}
+		},
+		"salmon": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "skills:culinary/cooked_salmon"
+			}
+		},
+		"cod": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "skills:culinary/cooked_cod"
+			}
+		},
+		"mutton": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "skills:culinary/cooked_mutton"
+			}
+		},
+		"rabbit": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "skills:culinary/cooked_rabbit"
+			}
+		},
+		"porkchop": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "skills:culinary/cooked_porkchop"
+			}
+		},
+		"bread": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "skills:culinary/bread"
+			}
+		},
+		"cabbage_soup": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "skills:culinary/cabbage_soup"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"meatpie",
+			"cooked_egg",
+			"cheese_wheel",
+			"beef",
+			"chicken",
+			"salmon",
+			"cod",
+			"mutton",
+			"rabbit",
+			"porkchop",
+			"bread",
+			"cabbage_soup"
+		]
+	],
+	"rewards": {
+		"function": "skills:advancement_functions/culinary/cook"
+	}
+}

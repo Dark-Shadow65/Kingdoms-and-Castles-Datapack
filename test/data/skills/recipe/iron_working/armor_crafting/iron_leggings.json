@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"iIi",
+		"i i",
+		"i i"
+	],
+	"key": {
+		"i": {
+			"item": "minecraft:prismarine_shard"
+		},
+		"I": {
+			"item": "minecraft:iron_ingot"
+		}
+	},
+	"result": {
+		"id": "minecraft:iron_leggings",
+		"count": 1,
+		"components": {
+			"minecraft:custom_data": {"deflection_chance":30},
+			"minecraft:attribute_modifiers": {
+				"modifiers": [
+					{
+						"type": "minecraft:generic.movement_speed",
+						"id": "movement_debuff",
+						"amount": -0.05,
+						"operation": "add_multiplied_base",
+						"slot": "legs"
+					}
+				]
+			}
+		}
+	}
+}

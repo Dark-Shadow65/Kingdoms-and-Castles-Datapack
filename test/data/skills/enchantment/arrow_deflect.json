@@ -1,0 +1,86 @@
+{
+    "description": "Arrow Deflection",
+    "max_level": 1,
+    "slots": ["chest"],
+    "supported_items": "minecraft:iron_chestplate",
+    "primary_items": "minecraft:iron_chestplate",
+    "effects": {
+        "minecraft:damage_immunity":[{
+            "effect":{},
+            "requirements":{
+                "condition": "minecraft:any_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:all_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:value_check",
+                                "value": {
+                                    "type": "minecraft:uniform",
+                                    "min": 0,
+                                    "max": 100
+                                },
+                                "range": {
+                                    "min": 40,
+                                    "max": {
+                                        "type": "minecraft:score",
+                                        "target": "this",
+                                        "score": "skills.blacksmithing.deflect_chance",
+                                        "scale": 1
+                                    }
+                                }
+                            },{
+                                "condition": "minecraft:damage_source_properties",
+                                "predicate": {
+                                    "direct_entity": {
+                                        "nbt": "{Tags:[\"skill_applied\",\"piercing\"]}"
+                                    }
+                                }
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "condition": "minecraft:all_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:value_check",
+                                "value": {
+                                    "type": "minecraft:uniform",
+                                    "min": 0,
+                                    "max": 100
+                                },
+                                "range": {
+                                    "min": 0,
+                                    "max": {
+                                        "type": "minecraft:score",
+                                        "target": "this",
+                                        "score": "skills.blacksmithing.deflect_chance",
+                                        "scale": 1
+                                    }
+                                }
+                            },{
+                                "condition": "minecraft:damage_source_properties",
+                                "predicate": {
+                                    "direct_entity": {
+                                        "nbt": "{Tags:[\"skill_applied\"]}"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }]
+    },
+	"min_cost": {
+		"base": 50,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 10,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 6,
+	"weight": 1
+}

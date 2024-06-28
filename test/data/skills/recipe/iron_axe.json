@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "base": {
+        "item": "minecraft:stick"
+    },
+    "addition": {
+        "item": "minecraft:ghast_tear"
+    },
+    "result": {
+      "id": "minecraft:iron_axe",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"text\":\"Iron Axe\"}",
+        "minecraft:hide_additional_tooltip": {},
+        "minecraft:lore": [
+          "[{\"text\":\"Unsharpend\",\"color\":\"red\",\"italic\":false}]"
+        ],
+        "minecraft:custom_data": {"bonus_applied":false}
+      }
+    }
+  }

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:smelting",
+	"category": "food",
+	"ingredient": {
+		"item": "minecraft:egg"
+	},
+	"result": {
+		"id": "minecraft:baked_potato",
+        "components": {
+            "minecraft:item_name": "{\"text\":\"Cooked Egg\"}",
+            "minecraft:custom_model_data": 1,
+            "minecraft:food": {
+                "nutrition": 2,
+                "saturation": 3
+            }
+        }
+	},
+	"cookingtime": 100
+}

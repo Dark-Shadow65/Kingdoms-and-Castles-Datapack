@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"meatpie": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "skills:culinary/meat_pie"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"meatpie"
+		]
+	],
+	"rewards": {
+		"function": "skills:advancement_functions/culinary/cook_items/cook_meatpie"
+	}
+}
