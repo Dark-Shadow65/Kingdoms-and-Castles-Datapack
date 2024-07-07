@@ -1,0 +1,5 @@
+$scoreboard players add @s alchemy.air $(air)
+$scoreboard players add @s alchemy.earth $(earth)
+$scoreboard players add @s alchemy.water $(water)
+$scoreboard players add @s alchemy.fire $(fire)
+$scoreboard players add @s alchemy.soul $(soul)

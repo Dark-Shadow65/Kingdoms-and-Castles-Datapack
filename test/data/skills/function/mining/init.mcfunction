@@ -25,3 +25,13 @@ scoreboard objectives add skills.mining.blocks.lapis_ore minecraft.mined:lapis_o
 scoreboard objectives add skills.mining.blocks.deepslate_lapis_ore minecraft.mined:deepslate_lapis_ore
 scoreboard objectives add skills.mining.blocks.diamond_ore minecraft.mined:diamond_ore
 scoreboard objectives add skills.mining.blocks.deepslate_diamond_ore minecraft.mined:deepslate_diamond_ore
+
+scoreboard objectives add skills.archery dummy
+scoreboard objectives add skills.archery.xp used:bow
+scoreboard objectives add skills.archery.usedbow used:bow
+scoreboard objectives add skills.archery.xpnxtlvl dummy
+scoreboard objectives add skills.archery.pos dummy
+
+data modify storage skills.archery xpnxtlvl set value 5
+
+tellraw @a [{"text":"Mining Module Loaded","color":"dark_green"}]

@@ -1,0 +1,5 @@
+#generate list of all items in tag and tag name
+data merge storage minecraft:tagtable {hold:{"#alchemy:logs":"logs","minecraft:oak_log":"logs","minecraft:spruce_log":"logs","minecraft:birch_log":"logs","minecraft:jungle_log":"logs","minecraft:acacia_log":"logs","minecraft:dark_oak_log":"logs","minecraft:mangrove_log":"logs","minecraft:cherry_log":"logs","minecraft:stripped_oak_log":"logs","minecraft:stripped_spruce_log":"logs","minecraft:stripped_birch_log":"logs","minecraft:stripped_jungle_log":"logs","minecraft:stripped_acacia_log":"logs","minecraft:stripped_dark_oak_log":"logs","minecraft:stripped_mangrove_log":"logs","minecraft:stripped_cherry_log":"logs","minecraft:oak_wood":"logs","minecraft:spruce_wood":"logs","minecraft:birch_wood":"logs","minecraft:jungle_wood":"logs","minecraft:acacia_wood":"logs","minecraft:dark_oak_wood":"logs","minecraft:mangrove_wood":"logs","minecraft:cherry_wood":"logs"}}
+
+#generate reward list for the tagged items
+data modify storage rewardlookuptable hold.logs set value {earth:8,fire:0,water:3,air:1,soul:0}

@@ -11,3 +11,13 @@ scoreboard objectives add skills.woodcutting.woods.acacia minecraft.mined:acacia
 scoreboard objectives add skills.woodcutting.woods.darkoak minecraft.mined:dark_oak_log
 scoreboard objectives add skills.woodcutting.woods.mangrove minecraft.mined:mangrove_log
 scoreboard objectives add skills.woodcutting.woods.cherry minecraft.mined:cherry_log
+
+scoreboard objectives add skills.archery dummy
+scoreboard objectives add skills.archery.xp used:bow
+scoreboard objectives add skills.archery.usedbow used:bow
+scoreboard objectives add skills.archery.xpnxtlvl dummy
+scoreboard objectives add skills.archery.pos dummy
+
+data modify storage skills.archery xpnxtlvl set value 5
+
+tellraw @a [{"text":"Wood Cutting Module Loaded","color":"dark_green"}]

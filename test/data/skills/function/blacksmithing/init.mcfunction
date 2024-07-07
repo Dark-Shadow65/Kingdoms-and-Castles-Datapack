@@ -29,3 +29,13 @@ scoreboard players set iron_tool_efficiency_floor skills.math 4
 data modify storage skills.blacksmithing damage_floor_dull set value 1
 
 data modify storage skills.blacksmithing xpnxtlvl set value 5
+
+scoreboard objectives add skills.archery dummy
+scoreboard objectives add skills.archery.xp used:bow
+scoreboard objectives add skills.archery.usedbow used:bow
+scoreboard objectives add skills.archery.xpnxtlvl dummy
+scoreboard objectives add skills.archery.pos dummy
+
+data modify storage skills.archery xpnxtlvl set value 5
+
+tellraw @a [{"text":"Blacksmithing Module Loaded","color":"dark_green"}]
