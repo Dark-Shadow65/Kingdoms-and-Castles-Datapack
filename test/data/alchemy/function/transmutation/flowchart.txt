@@ -1,0 +1,26 @@
+Decomp:{
+    Inventory Decomp:{
+        tag:{
+            none,
+            item,
+            tag
+        },
+        amount: number
+    }
+    Location Decomp:{
+        tag:{
+            none,
+            item,
+            tag
+        },
+        source:{
+            on_hit_block,
+            at_player
+        },
+        relative_location:{
+            x:number,
+            y:number,
+            z:number
+        }
+    }
+}

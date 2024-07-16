@@ -4,6 +4,8 @@ scoreboard objectives add alchemy.water dummy
 scoreboard objectives add alchemy.fire dummy
 scoreboard objectives add alchemy.air dummy
 scoreboard objectives add alchemy.soul dummy
-function alchemy:lookup_tables/generate_reward_lookup_table
+scoreboard objectives add alchemy.math dummy
+function alchemy:lookup_tables/generate_generic_reward_table
 function alchemy:lookup_tables/generate_tag_tables
+function alchemy:lookup_tables/generate_spellbook_table
 tellraw @a {"text":" \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 ","strikethrough":true}

@@ -1,0 +1,34 @@
+[
+	{
+		"function": "minecraft:set_written_book_pages",
+		"pages": [
+			[
+				{
+					"text": "Decomposition",
+					"color": "red",
+					"bold": true,
+					"clickEvent": {
+						"action": "run_command",
+						"value": "/function alchemy:spell_book/change_type/set_type_recomp {page:0}"
+					},
+					"extra": [
+						"\n"
+					]
+				}
+			]
+		],
+		"mode": "replace_section",
+		"offset": 0,
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:storage",
+					"storage": "minecraft:alchemy.book",
+					"path": "selected_page"
+				},
+				"range": 0
+			}
+		]
+	}
+]
