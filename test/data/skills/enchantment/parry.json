@@ -1,0 +1,71 @@
+{
+	"description": "parry",
+	"supported_items": "#skills:can_parry",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"minecraft:damage_immunity": [
+			{
+				"effect": {},
+				"requirements": [
+					{
+						"condition": "minecraft:all_of",
+						"terms": [
+							{
+								"condition": "minecraft:damage_source_properties",
+								"predicate": {
+									"tags": [
+										{
+											"id": "minecraft:is_projectile",
+											"expected": false
+										}
+									]
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"nbt": "{\"Tags\":[\"parrying\"]}"
+								}
+							},
+							{
+								"condition": "minecraft:value_check",
+								"value": {
+									"min": 0,
+									"max": {
+										"type": "minecraft:score",
+										"target": "attacker",
+										"score": "skills.combat.parry_break",
+										"scale": 1
+									}
+								},
+								"range": {
+									"min": 0,
+									"max": {
+										"type": "minecraft:score",
+										"target": "this",
+										"score": "skills.combat.parry_chance",
+										"scale": 1
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

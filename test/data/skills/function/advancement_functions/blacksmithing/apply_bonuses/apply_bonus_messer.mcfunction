@@ -18,5 +18,11 @@ execute store result storage skills.blacksmithing.bonus durability_bonus long 1 
 execute store result storage skills.blacksmithing.bonus durability float 0.01 run scoreboard players operation apply_blacksmith_skill skills.blacksmithing.durability_bonus *= iron_durability_floor skills.math
 
 data modify storage skills.blacksmithing.bonus efficiency_bonus set value 0
+data modify storage skills.blacksmithing.bonus can_parry_in_offhand set value true
+data modify storage skills.blacksmithing.bonus two_handed_attack_speed_bonus set value 0
+data modify storage skills.blacksmithing.bonus reach set value 1
+data modify storage skills.blacksmithing.bonus parry_scalar set value 1
+data modify storage skills.blacksmithing.bonus enchantments set value {"skills:sharpen_item":1,"skills:parry":1,"skills:update_handedness":1}
+
 
 function skills:advancement_functions/blacksmithing/apply_blacksmith_bonus_weapon with storage skills.blacksmithing.bonus

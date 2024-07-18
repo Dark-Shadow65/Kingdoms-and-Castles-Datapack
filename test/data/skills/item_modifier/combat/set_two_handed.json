@@ -1,0 +1,55 @@
+[
+    {
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"id": "two_handed_attack_speed_bonus",
+				"attribute": "minecraft:generic.attack_speed",
+				"amount": {
+					"type": "minecraft:storage",
+					"storage": "minecraft:combat",
+					"path": "two_handed_attack_speed_bonus"
+				},
+				"operation": "add_value",
+				"slot": [
+					"mainhand"
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"predicates": {
+								"minecraft:attribute_modifiers": {
+									"modifiers": {
+										"contains": [
+											{
+												"id": "two_handed_attack_speed_bonus",
+												"attribute": "minecraft:generic.attack_speed",
+												"amount": {
+													"min": 0,
+													"max": 0
+												}
+											}
+										]
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		]
+	},
+    {
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:custom_model_data": 1
+		}
+	}
+]

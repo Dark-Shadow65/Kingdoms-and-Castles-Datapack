@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"on_tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"rewards": {
+		"function": "skills:advancement_functions/combat/adjust_range"
+	}
+}

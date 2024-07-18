@@ -9,4 +9,7 @@ function skills:swords/init
 function skills:axes/init
 function skills:archery/init
 scoreboard objectives add skills.clock dummy
+scoreboard objectives add skills.combat.parry_cooldown dummy
+scoreboard objectives add skills.combat.parry_break dummy
+scoreboard objectives add skills.combat.parry_chance dummy
 tellraw @a {"text":" \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 ","strikethrough":true}
