@@ -1,12 +1,4 @@
 {
-  "display": {
-    "icon": {
-      "id": "minecraft:stone"
-    },
-    "title": "",
-    "description": "",
-    "announce_to_chat": true
-  },
   "criteria": {
     "sharpen_longsword": {
       "trigger": "minecraft:recipe_crafted",

@@ -3,7 +3,19 @@
 		"player_damaged_entity": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
-				"player": []
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": "#skills:sharp_items"
+								}
+							}
+						}
+					}
+				]
 			}
 		},
 		"player_used_tool": {
@@ -19,7 +31,7 @@
 	"requirements": [
 		[
 			"player_damaged_entity",
-            "player_used_tool"
+			"player_used_tool"
 		]
 	],
 	"rewards": {

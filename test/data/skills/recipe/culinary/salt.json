@@ -2,15 +2,15 @@
 	"type": "minecraft:crafting_shapeless",
 	"ingredients": [
 		{
-			"item": "minecraft:blaze_rod"
+			"item": "minecraft:calcite"
 		}
 	],
 	"result": {
-		"id": "minecraft:iron_nugget",
-		"count": 2,
+		"id": "minecraft:sugar",
+		"count": 4,
 		"components": {
-		  "minecraft:item_name": "{\"text\":\"Iron Nugget\"}",
+		  "minecraft:item_name": "{\"text\":\"Salt\"}",
 		  "minecraft:hide_additional_tooltip": {}
 		}
-	  }
+	}
 }

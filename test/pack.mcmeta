@@ -84,6 +84,90 @@
 		  {
 			"namespace": "minecraft",
 			"path": "recipe/bucket"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/bread"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/wooden_pickaxe"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/wooden_axe"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/wooden_sword"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/wooden_hoe"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/wooden_shovel"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/stone_pickaxe"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/stone_axe"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/stone_sword"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/stone_hoe"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/stone_shovel"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/red_dye_from_beetroot"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/sugar_from_sugar_cane"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/sugar_from_honey_bottle"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/cooked_porkchop"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/cooked_chicken"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/cooked_beef"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/cooked_cod"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/cooked_salmon"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/cooked_mutton"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/cooked_rabbit"
 		  }
 		]
 	  }

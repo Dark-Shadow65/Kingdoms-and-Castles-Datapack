@@ -4,11 +4,11 @@
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "player": [],
-        "recipe_id": "skills:kriegsmesser"
+        "recipe_id": "skills:iron_shovel"
       }
     }
   },
   "rewards": {
-    "function": "skills:advancement_functions/blacksmithing/apply_bonuses/apply_bonus_kriegmesser"
+    "function": "skills:advancement_functions/blacksmithing/apply_bonuses/apply_bonus_iron_shovel"
   }
 }

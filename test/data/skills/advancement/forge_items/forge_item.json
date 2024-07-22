@@ -1,14 +1,4 @@
 {
-    "display": {
-      "icon": {
-        "id": "minecraft:chiseled_red_sandstone"
-      },
-      "title": "",
-      "description": "",
-      "frame": "task",
-      "show_toast": false,
-      "announce_to_chat": false
-    },
     "criteria": {
       "iron_billet": {
         "trigger": "minecraft:recipe_crafted",
@@ -107,6 +97,20 @@
           "player": [],
           "recipe_id": "skills:iron_warhammer"
         }
+      },
+      "shovel": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_shovel"
+        }
+      },
+      "hoe": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_hoe"
+        }
       }
     },
     "requirements": [
@@ -124,7 +128,9 @@
         "pickaxe",
         "kreigmesser",
         "messer",
-        "warhammer"
+        "warhammer",
+        "shovel",
+        "hoe"
       ]
     ],
     "rewards": {

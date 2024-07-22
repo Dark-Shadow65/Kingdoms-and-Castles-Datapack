@@ -29,5 +29,26 @@
 			}
 		],
 		"replace": false
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Sharp Hits Left: ",
+				"color": "gray",
+				"italic": false,
+				"extra": [
+					{
+						"nbt": "SelectedItem.components.\"minecraft:custom_data\".sharpness_max",
+						"entity": "@s",
+						"interpret": false
+					}
+				]
+			}
+		],
+		"mode": "replace_section",
+		"offset": 1,
+		"size": 1
 	}
 ]

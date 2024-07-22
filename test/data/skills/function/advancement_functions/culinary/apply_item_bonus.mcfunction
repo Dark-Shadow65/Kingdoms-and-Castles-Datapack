@@ -1,1 +1,1 @@
-$give @s $(type)[minecraft:food={nutrition:$(nutrition),saturation:$(saturation)},minecraft:custom_model_data=$(model_id)]
+$give @s $(type)[minecraft:food={nutrition:$(nutrition),saturation:$(saturation)$(using_converts_to)},minecraft:custom_model_data=$(model_id)]

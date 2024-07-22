@@ -1,19 +1,35 @@
-{
-	"function": "minecraft:set_lore",
-	"entity": "this",
-	"lore": [
-		{
-			"text": "Blacksmith: ",
-			"color": "gray",
-			"italic": false,
-			"extra": [
-				{
-					"selector": "@s"
-				}
-			]
-		}
-	],
-	"mode": "replace_section",
-	"offset": 0,
-	"size": 1
-}
+[
+	{
+		"function": "minecraft:copy_custom_data",
+		"source": {
+			"type": "minecraft:storage",
+			"source": "minecraft:skills.blacksmithing"
+		},
+		"ops": [
+			{
+				"source": "damage_floor_dull",
+				"target": "author",
+				"op": "replace"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Blacksmith: ",
+				"color": "gray",
+				"italic": false,
+				"extra": [
+					{
+						"selector": "@s"
+					}
+				]
+			}
+		],
+		"mode": "replace_section",
+		"offset": 0,
+		"size": 1
+	}
+]

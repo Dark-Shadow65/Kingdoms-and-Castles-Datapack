@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "sSs",
+      "sss"
+    ],
+    "key": {
+      "s": {
+        "item": "minecraft:smooth_stone_slab"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "id": "minecraft:warped_slab",
+      "count": 1
+    }
+  }
