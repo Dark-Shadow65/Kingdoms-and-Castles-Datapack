@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ooo",
+      " b "
+    ],
+    "key": {
+      "o": {
+        "item": "minecraft:prismarine_crystals"
+      },
+      "b": {
+        "item": "minecraft:bowl"
+      }
+    },
+    "result": {
+      "id": "minecraft:baked_potato",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"text\":\"Oatmeal\"}",
+        "minecraft:custom_model_data": 3,
+        "minecraft:food": {
+            "nutrition": 5,
+            "saturation": 3
+        }
+    }
+    }
+  }
