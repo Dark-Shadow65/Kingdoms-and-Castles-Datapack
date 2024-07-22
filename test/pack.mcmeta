@@ -168,6 +168,18 @@
 		  {
 			"namespace": "minecraft",
 			"path": "recipe/cooked_rabbit"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/blast_furnace"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/smithing_table"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/chain"
 		  }
 		]
 	  }

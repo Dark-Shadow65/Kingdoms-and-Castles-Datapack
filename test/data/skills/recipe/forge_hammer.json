@@ -1,12 +1,12 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-      "i",
-      "s"
+      "i ",
+      "si"
     ],
     "key": {
       "i": {
-        "item": "minecraft:prismarine_shard"
+        "item": "minecraft:iron_nugget"
       },
       "s": {
         "item": "minecraft:stick"

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "sss",
+      "cfc",
+      "SSS"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:smooth_stone"
+      },
+      "s": {
+        "item": "minecraft:smooth_stone_slab"
+      },
+      "c": {
+        "item": "minecraft:cobblestone"
+      },
+      "f": {
+        "item": "minecraft:furnace"
+      }
+    },
+    "result": {
+      "id": "minecraft:blast_furnace",
+      "count": 1
+    }
+  }

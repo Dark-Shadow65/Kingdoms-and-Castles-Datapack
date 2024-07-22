@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"c c",
+		"l l"
+	],
+	"key": {
+		"l": {
+			"item": "minecraft:leather"
+		},
+		"c": {
+			"item": "minecraft:chain"
+		}
+	},
+	"result": {
+		"id": "minecraft:chainmail_boots",
+		"count": 1,
+		"components": {
+			"minecraft:attribute_modifiers": {
+				"modifiers": [
+					{
+						"type": "minecraft:generic.movement_speed",
+						"id": "movement_debuff",
+						"amount": -0.005,
+						"operation": "add_multiplied_base",
+						"slot": "feet"
+					}
+				]
+			}
+		}
+	}
+}
