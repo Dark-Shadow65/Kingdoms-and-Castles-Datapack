@@ -29,7 +29,23 @@
 			}
 		],
 		"mode": "replace_section",
-		"offset": 0,
-		"size": 1
+		"offset": 1,
+		"size": 1,
+		"conditions": [
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": "#skills:flint_tools"
+							}
+						}
+					}
+				}
+			}
+		]
 	}
 ]

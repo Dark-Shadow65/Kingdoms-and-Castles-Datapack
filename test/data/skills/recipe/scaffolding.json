@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "sss",
+      "s s"
+    ],
+    "key": {
+      "s": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "id": "minecraft:scaffolding",
+      "count": 5
+    }
+  }

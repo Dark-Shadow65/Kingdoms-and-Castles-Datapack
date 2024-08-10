@@ -3,7 +3,7 @@ data modify storage combat two_handed_attack_speed_bonus set from entity @s Sele
 execute if items entity @s weapon.mainhand #skills:can_parry unless items entity @s weapon.offhand * run item modify entity @s weapon.mainhand skills:combat/set_able_to_parry
 execute if items entity @s weapon.mainhand #skills:can_parry if items entity @s weapon.offhand * run item modify entity @s weapon.mainhand skills:combat/set_unable_to_parry
 
-execute if items entity @s weapon.mainhand #skills:two_handed unless items entity @s weapon.offhand * run item modify entity @s weapon.mainhand skills:combat/set_two_handed
+#execute if items entity @s weapon.mainhand #skills:two_handed unless items entity @s weapon.offhand * run item modify entity @s weapon.mainhand skills:combat/set_two_handed
 execute if items entity @s weapon.mainhand #skills:two_handed if items entity @s weapon.offhand * run item modify entity @s weapon.mainhand skills:combat/set_one_handed
 
 execute if items entity @s weapon.mainhand #skills:swords store result score @s skills.combat.parry_chance run scoreboard players get @s skills.swords.parry_skill

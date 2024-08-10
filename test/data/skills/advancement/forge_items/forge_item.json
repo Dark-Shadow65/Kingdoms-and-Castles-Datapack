@@ -4,112 +4,168 @@
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
           "player": [],
-          "recipe_id": "skills:iron_billet"
+          "recipe_id": "skills:iron_working/assembling_iron/iron_billet"
         }
       },
       "iron_slab": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
           "player": [],
-          "recipe_id": "skills:iron_slab"
+          "recipe_id": "skills:iron_working/assembling_iron/iron_slab"
         }
       },
       "iron_ingot": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
           "player": [],
-          "recipe_id": "skills:iron_ingot"
+          "recipe_id": "skills:iron_working/assembling_iron/iron_ingot"
         }
       },
       "short_blade": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
           "player": [],
-          "recipe_id": "skills:iron_blade_short"
+          "recipe_id": "skills:iron_working/blades/iron_blade_short"
         }
       },
       "medium_blade": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
           "player": [],
-          "recipe_id": "skills:iron_blade_medium"
+          "recipe_id": "skills:iron_working/blades/iron_blade_medium"
         }
       },
       "long_blade": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
           "player": [],
-          "recipe_id": "skills:iron_blade_long"
-        }
-      },
-      "longsword": {
-        "trigger": "minecraft:recipe_crafted",
-        "conditions": {
-          "player": [],
-          "recipe_id": "skills:longsword"
+          "recipe_id": "skills:iron_working/blades/iron_blade_long"
         }
       },
       "axe_head": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
           "player": [],
-          "recipe_id": "skills:iron_axe_head"
+          "recipe_id": "skills:iron_working/blades/iron_axe_head"
         }
       },
       "pickaxe_head": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
           "player": [],
-          "recipe_id": "skills:iron_pickaxe_head"
+          "recipe_id": "skills:iron_working/blades/iron_pickaxe_head"
         }
       },
       "axe": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
           "player": [],
-          "recipe_id": "skills:iron_axe"
+          "recipe_id": "skills:iron_working/equipment/iron_axe"
         }
       },
       "pickaxe": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
           "player": [],
-          "recipe_id": "skills:iron_pickaxe"
-        }
-      },
-      "kreigmesser": {
-        "trigger": "minecraft:recipe_crafted",
-        "conditions": {
-          "player": [],
-          "recipe_id": "skills:kriegsmesser"
-        }
-      },
-      "messer": {
-        "trigger": "minecraft:recipe_crafted",
-        "conditions": {
-          "player": [],
-          "recipe_id": "skills:messer"
-        }
-      },
-      "warhammer": {
-        "trigger": "minecraft:recipe_crafted",
-        "conditions": {
-          "player": [],
-          "recipe_id": "skills:iron_warhammer"
+          "recipe_id": "skills:iron_working/equipment/iron_pickaxe"
         }
       },
       "shovel": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
           "player": [],
-          "recipe_id": "skills:iron_shovel"
+          "recipe_id": "skills:iron_working/equipment/iron_shovel"
         }
       },
       "hoe": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
           "player": [],
-          "recipe_id": "skills:iron_hoe"
+          "recipe_id": "skills:iron_working/equipment/iron_hoe"
+        }
+      },
+      "longsword": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_working/weapons/longsword"
+        }
+      },
+      "kreigmesser": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_working/weapons/kriegsmesser"
+        }
+      },
+      "messer": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_working/weapons/messer"
+        }
+      },
+      "warhammer": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_working/weapons/iron_warhammer"
+        }
+      },
+      "repair_axe": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_working/repair/repair_iron_axe"
+        }
+      },
+      "repair_pickaxe": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_working/repair/repair_iron_pickaxe"
+        }
+      },
+      "repair_shovel": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_working/repair/repair_iron_shovel"
+        }
+      },
+      "repair_hoe": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_working/repair/repair_iron_hoe"
+        }
+      },
+      "repair_longsword": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_working/repair/repair_longsword"
+        }
+      },
+      "repair_kreigmesser": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_working/repair/repair_kriegmesser"
+        }
+      },
+      "repair_messer": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_working/repair/repair_messer"
+        }
+      },
+      "repair_warhammer": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_working/repair/repair_warhammer"
         }
       }
     },
@@ -130,7 +186,15 @@
         "messer",
         "warhammer",
         "shovel",
-        "hoe"
+        "hoe",
+        "repair_axe",
+        "repair_hoe",
+        "repair_kreigmesser",
+        "repair_longsword",
+        "repair_messer",
+        "repair_pickaxe",
+        "repair_shovel",
+        "repair_warhammer"
       ]
     ],
     "rewards": {

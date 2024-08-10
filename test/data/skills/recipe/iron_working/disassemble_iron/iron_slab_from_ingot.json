@@ -9,8 +9,7 @@
 		"id": "minecraft:prismarine_shard",
 		"count": 2,
 		"components": {
-		  "minecraft:item_name": "{\"text\":\"Iron Slab\"}",
-		  "minecraft:hide_additional_tooltip": {}
+		  "minecraft:item_name": "{\"text\":\"Iron Slab\"}"
 		}
 	  }
 }

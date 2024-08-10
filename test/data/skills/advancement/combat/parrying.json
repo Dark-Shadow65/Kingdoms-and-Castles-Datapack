@@ -5,6 +5,34 @@
 			"conditions": {
 				"player": [
 					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:value_check",
+								"value": {
+									"type": "minecraft:score",
+									"target": "this",
+									"score": "skills.combat.parry_cooldown",
+									"scale": 1
+								},
+								"range": {
+									"min": 19,
+									"max": 20
+								}
+							},
+							{
+								"condition": "minecraft:value_check",
+								"value": {
+									"type": "minecraft:score",
+									"target": "this",
+									"score": "skills.combat.parry_cooldown",
+									"scale": 1
+								},
+								"range": 0
+							}
+						]
+					},
+					{
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {

@@ -1,0 +1,91 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  f",
+      " s ",
+      "s  "
+    ],
+    "key": {
+      "f": {
+        "item": "minecraft:flint"
+      },
+      "s": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "id": "minecraft:stone_hoe",
+      "count": 1,
+      "components": {
+        "attribute_modifiers": {
+          "modifiers":[
+            {
+              "type":"minecraft:player.entity_interaction_range",
+              "slot":"mainhand",
+              "id":"reach",
+              "amount":0.5,
+              "operation":"add_value"
+            },
+            {
+              "type":"generic.attack_speed",
+              "slot":"mainhand",
+              "id":"two_handed_attack_speed_bonus",
+              "amount":0,
+              "operation":"add_value"
+            },
+            {
+              "type":"generic.attack_damage",
+              "slot":"mainhand",
+              "id":"base_damage",
+              "amount":0.5, 
+              "operation":"add_value"
+            },
+            {
+              "type":"generic.attack_speed",
+              "id":"base_attack_speed",
+              "amount":-3,
+              "operation":"add_value",
+              "slot":"mainhand"
+            },
+            {
+              "type":"minecraft:player.block_break_speed",
+              "id":"set_base_speed",
+              "amount":0.2,
+              "operation":"add_value",
+              "slot":"mainhand"
+            }
+          ],
+          "show_in_tooltip": false
+        },
+        "custom_data": {
+          "bonus_applied":true,
+          "sharpness":0,
+          "sharpness_max":100,
+          "can_parry_in_offhand":true,
+          "two_handed_attack_speed_bonus":0,
+          "parry_scalar":0.8,
+          "author":0
+        },
+        "enchantments": {
+          "levels":{
+            "skills:sharpen_item":1,
+            "skills:update_handedness": 1
+          },
+          "show_in_tooltip": false
+        },
+        "tool": {
+          "rules":[
+            {
+              "blocks":"#minecraft:mineable/shovel",
+              "correct_for_drops":true,
+              "speed":1
+            }
+          ],
+          "damage_per_block":1
+        },
+        "max_damage": 200,
+        "enchantment_glint_override": false,
+        "hide_additional_tooltip": {}
+      }
+    }
+  }

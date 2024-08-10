@@ -17,15 +17,30 @@
 			}
 		],
 		"mode": "replace_section",
-		"offset": 1,
-		"size": 1
+		"offset": 0,
+		"size": 1,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"predicates": {
+								"minecraft:custom_data": "{author:1}"
+							}
+						}
+					}
+				}
+			}
+		]
 	},
 	{
 		"function": "minecraft:set_attributes",
 		"modifiers": [
 			{
-				"attribute": "minecraft:generic.attack_damage",
 				"id": "damage_debuff",
+				"attribute": "minecraft:generic.attack_damage",
 				"amount": -0.5,
 				"operation": "add_multiplied_base",
 				"slot": "mainhand"
@@ -43,8 +58,8 @@
 		"function": "minecraft:set_attributes",
 		"modifiers": [
 			{
-				"attribute": "minecraft:player.block_break_speed",
 				"id": "efficiency_debuff",
+				"attribute": "minecraft:player.block_break_speed",
 				"amount": -0.75,
 				"operation": "add_multiplied_base",
 				"slot": "mainhand"

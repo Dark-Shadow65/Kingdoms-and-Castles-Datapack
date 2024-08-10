@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "w"
+    ],
+    "key": {
+      "w": {
+        "item": "minecraft:hay_block"
+      }
+    },
+    "result": {
+      "id": "minecraft:wheat",
+      "count": 9,
+      "components": {
+        "enchantments": {
+          "levels":{
+            "skills:mill_wheat":1
+          },
+          "show_in_tooltip": false
+        },
+        "enchantment_glint_override": false
+      }
+    }
+  }

@@ -1,0 +1,111 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:wheat",
+							"functions": [
+								{
+									"function": "minecraft:set_enchantments",
+									"enchantments": {
+										"skills:mill_wheat": 1
+									}
+								},
+								{
+									"function": "minecraft:toggle_tooltips",
+									"toggles": {
+										"minecraft:enchantments": false
+									}
+								},
+								{
+									"function": "minecraft:set_components",
+									"components": {
+										"minecraft:enchantment_glint_override": false
+									}
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "minecraft:wheat",
+									"properties": {
+										"age": "7"
+									}
+								},
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.85
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wheat_seeds",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "minecraft:wheat",
+							"properties": {
+								"age": "0"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"type": "minecraft:score",
+				"target": "this",
+				"score": "skills.farming",
+				"scale": 0.1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wheat",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"skills:mill_wheat": 1
+							}
+						},
+						{
+							"function": "minecraft:toggle_tooltips",
+							"toggles": {
+								"minecraft:enchantments": false
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:enchantment_glint_override": false
+							}
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.25
+						}
+					]
+				}
+			]
+		}
+	],
+	"functions": [
+		{
+			"function": "minecraft:explosion_decay"
+		}
+	],
+	"random_sequence": "minecraft:blocks/wheat"
+}

@@ -26,8 +26,16 @@
 						"amount": -0.01,
 						"operation": "add_multiplied_base",
 						"slot": "chest"
+					},
+					{
+						"type": "generic.armor",
+						"id": "chest_armor",
+						"amount": 5,
+						"operation": "add_value",
+						"slot": "chest"
 					}
-				]
+				],
+				"show_in_tooltip":false
 			}
 		}
 	}

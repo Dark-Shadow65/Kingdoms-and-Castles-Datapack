@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "fff",
+      "fwf",
+      "fff"
+    ],
+    "key": {
+      "f": {
+        "item": "minecraft:glowstone_dust"
+      },
+      "w": {
+        "item": "minecraft:water_bucket"
+      }
+    },
+    "result": {
+		"id": "minecraft:blaze_powder",
+		"count": 4,
+		"components": {
+		  "minecraft:item_name": "{\"text\":\"Dough\"}",
+		  "minecraft:hide_additional_tooltip": {}
+		}
+	}
+  }

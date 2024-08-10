@@ -18,7 +18,7 @@
     },
     "result": {
       "id": "minecraft:arrow",
-      "count": 1,
+      "count": 3,
       "components": {
         "damage":1,
         "minecraft:item_name": "{\"text\":\"Bodkin Point Arrow\"}",

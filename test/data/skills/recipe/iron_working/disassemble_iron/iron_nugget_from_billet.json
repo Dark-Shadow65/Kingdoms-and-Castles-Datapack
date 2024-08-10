@@ -7,10 +7,6 @@
 	],
 	"result": {
 		"id": "minecraft:iron_nugget",
-		"count": 2,
-		"components": {
-		  "minecraft:item_name": "{\"text\":\"Iron Nugget\"}",
-		  "minecraft:hide_additional_tooltip": {}
-		}
+		"count": 2
 	  }
 }

@@ -6,11 +6,14 @@
 		},
         {
 			"item": "minecraft:glowstone_dust"
+		},
+        {
+			"item": "minecraft:glowstone_dust"
 		}
 	],
 	"result": {
 		"id": "minecraft:blaze_powder",
-		"count": 2,
+		"count": 1,
 		"components": {
 		  "minecraft:item_name": "{\"text\":\"Dough\"}",
 		  "minecraft:hide_additional_tooltip": {}

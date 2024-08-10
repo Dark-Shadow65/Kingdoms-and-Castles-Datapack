@@ -4,9 +4,16 @@
 		"entity": "this",
 		"lore": [
 			{
-				"text": "Blacksmith: ",
+				"text": "Sharp Hits Left: ",
 				"color": "gray",
-				"italic": false
+				"italic": false,
+				"extra": [
+					{
+						"nbt": "SelectedItem.components.\"minecraft:custom_data\".sharpness",
+						"entity": "@s",
+						"interpret": false
+					}
+				]
 			}
 		],
 		"mode": "replace_all"
@@ -16,35 +23,15 @@
 		"entity": "this",
 		"lore": [
 			{
-				"text": "Sharp Hits Left: ",
+				"text": "Blacksmith: ",
 				"color": "gray",
-				"italic": false,
-				"extra": [
-					{
-						"nbt": "SelectedItem.components.\"minecraft:custom_data\".sharpness",
-						"entity": "@s"
-					}
-				]
-			}
-		],
-		"mode": "append"
-	},
-	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
+				"italic": false
+			},
 			{
 				"text": "- Blacksmith Bonuses -",
 				"color": "gold",
 				"italic": false
-			}
-		],
-		"mode": "append"
-	},
-	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
+			},
 			{
 				"text": "Durability Multiplier: ",
 				"color": "gold",
@@ -61,14 +48,7 @@
 						]
 					}
 				]
-			}
-		],
-		"mode": "append"
-	},
-	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
+			},
 			{
 				"text": "Damage Multiplier: ",
 				"color": "gold",
@@ -106,15 +86,34 @@
 		"mode": "append",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"equipment": {
-						"mainhand": {
-							"items": "#skills:sharp_items"
+				"condition": "minecraft:all_of",
+				"terms": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": "#skills:sharp_items"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"items": "#skills:flint_tools"
+									}
+								}
+							}
 						}
 					}
-				}
+				]
 			}
 		]
 	},
@@ -142,15 +141,34 @@
 		"mode": "append",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"equipment": {
-						"mainhand": {
-							"items": "#skills:tools"
+				"condition": "minecraft:all_of",
+				"terms": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": "#skills:tools"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"items": "#skills:flint_tools"
+									}
+								}
+							}
 						}
 					}
-				}
+				]
 			}
 		]
 	}

@@ -13,7 +13,7 @@
       "id": "minecraft:netherite_axe",
       "count": 1,
       "components": {
-        "minecraft:item_name": "{\"text\":\"Iron Axe\"}",
+        "minecraft:item_name": "{\"text\":\"Iron Warhammer\"}",
         "minecraft:hide_additional_tooltip": {},
         "minecraft:lore": [
           "[{\"text\":\"Unsharpend\",\"color\":\"red\",\"italic\":false}]"

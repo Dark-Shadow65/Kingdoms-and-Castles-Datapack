@@ -15,7 +15,7 @@
     },
     "result": {
       "id": "minecraft:arrow",
-      "count": 1,
+      "count": 3,
       "components": {
         "damage":0,
         "minecraft:item_name": "{\"text\":\"Wooden Arrow\"}",

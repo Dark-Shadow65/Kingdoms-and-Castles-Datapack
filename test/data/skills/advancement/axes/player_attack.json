@@ -6,7 +6,19 @@
 				"player": [
 					{
 						"condition": "minecraft:reference",
-						"name": "skills:axes/holding_axe"
+						"name": "skills:swords/holding_sword"
+					}
+				],
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": [
+								"minecraft:husk",
+								"minecraft:player"
+							]
+						}
 					}
 				]
 			}

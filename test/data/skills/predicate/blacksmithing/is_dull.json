@@ -1,7 +1,19 @@
 {
-	"condition": "minecraft:entity_properties",
-	"entity": "this",
-	"predicate": {
-		"nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{sharpness:0}}}}"
-	}
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{sharpness:0b}}}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{sharpness:0}}}}"
+			}
+		}
+	]
 }

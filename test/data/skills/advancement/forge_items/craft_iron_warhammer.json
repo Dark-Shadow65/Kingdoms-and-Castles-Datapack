@@ -4,7 +4,7 @@
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "player": [],
-        "recipe_id": "skills:iron_warhammer"
+        "recipe_id": "skills:iron_working/weapons/iron_warhammer"
       }
     }
   },

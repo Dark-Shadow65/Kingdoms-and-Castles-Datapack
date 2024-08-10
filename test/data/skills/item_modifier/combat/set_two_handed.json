@@ -18,27 +18,71 @@
 		],
 		"replace": false,
 		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"equipment": {
-						"mainhand": {
-							"predicates": {
-								"minecraft:attribute_modifiers": {
-									"modifiers": {
-										"contains": [
-											{
-												"id": "two_handed_attack_speed_bonus",
-												"attribute": "minecraft:generic.attack_speed",
-												"amount": {
-													"min": 0,
-													"max": 0
-												}
-											}
-										]
+		{
+			"condition": "minecraft:all_of",
+			"terms": [
+				{
+					"condition": "minecraft:inverted",
+					"term": {
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:wooden_sword",
+									"components": {
+										"custom_model_data": 0
 									}
 								}
+							}
+						}
+					}
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"predicates": {
+									"minecraft:attribute_modifiers": {
+										"modifiers": {
+											"contains": [
+												{
+													"id": "two_handed_attack_speed_bonus",
+													"attribute": "minecraft:generic.attack_speed",
+													"amount": {
+														"min": 0,
+														"max": 0
+													}
+												}
+											]
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+	},
+    {
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:custom_model_data": 1
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:wooden_sword"
 							}
 						}
 					}
@@ -46,10 +90,48 @@
 			}
 		]
 	},
-    {
+	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:custom_model_data": 1
-		}
+			"minecraft:custom_model_data": 3
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": "minecraft:wooden_sword",
+							"components": {
+								"minecraft:custom_model_data": 1
+							}
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:custom_model_data": 4
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": "minecraft:wooden_sword",
+							"components": {
+								"minecraft:custom_model_data": 2
+							}
+						}
+					}
+				}
+			}
+		]
 	}
 ]

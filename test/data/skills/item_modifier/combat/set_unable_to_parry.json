@@ -2,8 +2,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"!minecraft:food": {},
-			"!minecraft:custom_model_data": {}
+			"!minecraft:food": {}
 		}
 	}
 ]

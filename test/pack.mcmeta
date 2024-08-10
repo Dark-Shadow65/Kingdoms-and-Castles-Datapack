@@ -131,6 +131,86 @@
 		  },
 		  {
 			"namespace": "minecraft",
+			"path": "recipe/iron_pickaxe"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/iron_axe"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/iron_sword"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/iron_hoe"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/iron_shovel"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/gold_pickaxe"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/gold_axe"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/gold_sword"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/gold_hoe"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/gold_shovel"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/diamond_pickaxe"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/diamond_axe"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/diamond_sword"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/diamond_hoe"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/diamond_shovel"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/netherite_pickaxe"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/netherite_axe"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/netherite_sword"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/netherite_hoe"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/netherite_shovel"
+		  },
+		  {
+			"namespace": "minecraft",
 			"path": "recipe/red_dye_from_beetroot"
 		  },
 		  {
@@ -179,7 +259,59 @@
 		  },
 		  {
 			"namespace": "minecraft",
-			"path": "recipe/chain"
+			"path": "recipe/diamond_boots"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/diamond_leggings"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/diamond_chestplate"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/diamond_helmet"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/netherite_boots"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/netherite_leggings"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/netherite_chestplate"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/netherite_helmet"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/iron_boots"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/iron_leggings"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/iron_chestplate"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/iron_helmet"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/flint_and_steel"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/smoker"
 		  }
 		]
 	  }

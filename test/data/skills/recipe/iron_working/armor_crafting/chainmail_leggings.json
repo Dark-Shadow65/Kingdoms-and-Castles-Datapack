@@ -26,8 +26,16 @@
 						"amount": -0.01,
 						"operation": "add_multiplied_base",
 						"slot": "legs"
+					},
+					{
+						"type": "generic.armor",
+						"id": "leg_armor",
+						"amount": 4,
+						"operation": "add_value",
+						"slot": "legs"
 					}
-				]
+				],
+				"show_in_tooltip":false
 			}
 		}
 	}

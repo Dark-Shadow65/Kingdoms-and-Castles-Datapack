@@ -4,17 +4,16 @@
       "item": "minecraft:netherite_upgrade_smithing_template"
     },
     "base": {
-        "item": "minecraft:prismarine_shard"
+        "item": "minecraft:blaze_rod"
     },
     "addition": {
-        "item": "minecraft:prismarine_shard"
+        "item": "minecraft:blaze_rod"
     },
     "result": {
-      "id": "minecraft:iron_ingot",
+      "id": "minecraft:prismarine_shard",
       "count": 1,
       "components": {
-        "minecraft:item_name": "{\"text\":\"Iron Ingot\"}",
-        "minecraft:hide_additional_tooltip": {}
+        "minecraft:item_name": "{\"text\":\"Iron Slab\"}"
       }
     }
   }

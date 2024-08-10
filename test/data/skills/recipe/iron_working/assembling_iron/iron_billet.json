@@ -13,8 +13,7 @@
       "id": "minecraft:blaze_rod",
       "count": 1,
       "components": {
-        "minecraft:item_name": "{\"text\":\"Iron Billet\"}",
-        "minecraft:hide_additional_tooltip": {}
+        "minecraft:item_name": "{\"text\":\"Iron Billet\"}"
       }
     }
   }

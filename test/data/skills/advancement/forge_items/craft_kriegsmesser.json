@@ -4,7 +4,7 @@
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "player": [],
-        "recipe_id": "skills:kriegsmesser"
+        "recipe_id": "skills:iron_working/weapons/kriegsmesser"
       }
     }
   },

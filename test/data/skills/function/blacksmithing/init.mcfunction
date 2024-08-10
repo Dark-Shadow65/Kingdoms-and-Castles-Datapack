@@ -13,7 +13,6 @@ scoreboard players set one skills.math 1
 scoreboard players set axe_sharpness_floor skills.math 200
 scoreboard players set sword_sharpness_floor skills.math 100
 scoreboard players set iron_durability_floor skills.math 1500
-scoreboard players set flint_durability_floor skills.math 100
 
 scoreboard players set warhammer_damage_floor skills.math 5
 scoreboard players set warhammer_sharpness_floor skills.math 500

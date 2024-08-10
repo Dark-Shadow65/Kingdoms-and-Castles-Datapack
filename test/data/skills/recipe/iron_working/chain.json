@@ -1,12 +1,16 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-      "i ",
-      " i"
+      "n",
+      "i",
+      "n"
     ],
     "key": {
       "i": {
         "item": "minecraft:blaze_rod"
+      },
+      "n": {
+        "item": "minecraft:iron_nugget"
       }
     },
     "result": {

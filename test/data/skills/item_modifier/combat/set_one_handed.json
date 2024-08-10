@@ -46,6 +46,66 @@
 		"function": "minecraft:set_components",
 		"components": {
 			"!minecraft:custom_model_data": {}
-		}
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:wooden_sword"
+							}
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:custom_model_data": 1
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": "minecraft:wooden_sword",
+							"components": {
+								"minecraft:custom_model_data": 3
+							}
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:custom_model_data": 2
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": "minecraft:wooden_sword",
+							"components": {
+								"minecraft:custom_model_data": 4
+							}
+						}
+					}
+				}
+			}
+		]
 	}
 ]

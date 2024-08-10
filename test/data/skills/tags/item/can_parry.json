@@ -2,6 +2,8 @@
     "values": [
         "minecraft:iron_sword",
         "minecraft:diamond_sword",
-        "minecraft:netherite_sword"
+        "minecraft:netherite_sword",
+        "minecraft:stone_sword",
+        "minecraft:wooden_sword"
     ]
 }

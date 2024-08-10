@@ -23,8 +23,16 @@
 						"amount": -0.01,
 						"operation": "add_multiplied_base",
 						"slot": "head"
+					},
+					{
+						"type": "generic.armor",
+						"id": "head_armor",
+						"amount": 2,
+						"operation": "add_value",
+						"slot": "head"
 					}
-				]
+				],
+				"show_in_tooltip":false
 			}
 		}
 	}

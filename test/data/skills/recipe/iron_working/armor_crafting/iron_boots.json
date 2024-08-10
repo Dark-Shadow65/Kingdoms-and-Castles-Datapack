@@ -23,8 +23,16 @@
 						"amount": -0.05,
 						"operation": "add_multiplied_base",
 						"slot": "feet"
+					},
+					{
+						"type": "generic.armor",
+						"id": "foot_armor",
+						"amount": 2,
+						"operation": "add_value",
+						"slot": "feet"
 					}
-				]
+				],
+				"show_in_tooltip":false
 			}
 		}
 	}

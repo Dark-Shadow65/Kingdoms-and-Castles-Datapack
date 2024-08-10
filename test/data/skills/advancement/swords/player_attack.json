@@ -8,11 +8,23 @@
 						"condition": "minecraft:reference",
 						"name": "skills:swords/holding_sword"
 					}
+				],
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": [
+								"minecraft:husk",
+								"minecraft:player"
+							]
+						}
+					}
 				]
 			}
 		}
 	},
-    "rewards": {
+	"rewards": {
 		"function": "skills:advancement_functions/swords/give_xp"
 	}
 }
