@@ -19,7 +19,7 @@
 				"modifiers": [
 					{
 						"type": "minecraft:generic.movement_speed",
-						"id": "movement_debuff",
+						"id": "movement_debuff_feet",
 						"amount": -0.05,
 						"operation": "add_multiplied_base",
 						"slot": "feet"

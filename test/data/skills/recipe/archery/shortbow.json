@@ -18,7 +18,14 @@
       "count": 1,
       "components": {
         "minecraft:item_name": "{\"text\":\"Shortbow\"}",
-        "minecraft:custom_data": {"accuracy":50,"accuracy_scalar":30,"weight":3}
+        "minecraft:custom_data": {"accuracy":50,"accuracy_scalar":30,"weight":3},
+        "enchantments": {
+          "levels":{
+            "skills:longbow_accuracy":1
+          },
+          "show_in_tooltip": false
+        },
+        "enchantment_glint_override": false
       }
     }
   }

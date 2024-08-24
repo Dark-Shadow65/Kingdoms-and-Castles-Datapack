@@ -1,0 +1,16 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"location": {
+			"dimension": "minecraft:overworld",
+			"can_see_sky": true
+		},
+		"flags": {
+			"is_on_ground": true,
+			"is_on_fire": false,
+			"is_swimming": false,
+			"is_flying": false
+		}
+	}
+}

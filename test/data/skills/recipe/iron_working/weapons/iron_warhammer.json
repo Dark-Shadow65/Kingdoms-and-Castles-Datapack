@@ -7,7 +7,7 @@
         "item": "minecraft:stick"
     },
     "addition": {
-        "item": "minecraft:prismarine_shard"
+        "item": "minecraft:iron_ingot"
     },
     "result": {
       "id": "minecraft:netherite_axe",

@@ -24,6 +24,22 @@
 						"condition": "minecraft:all_of",
 						"terms": [
 							{
+								"condition": "minecraft:inverted",
+								"term": {
+									"condition": "minecraft:damage_source_properties",
+									"predicate": {
+										"direct_entity": {
+											"distance": {
+												"absolute": {
+													"min": 0,
+													"max": 1
+												}
+											}
+										}
+									}
+								}
+							},
+							{
 								"condition": "minecraft:damage_source_properties",
 								"predicate": {
 									"tags": [
@@ -65,6 +81,24 @@
 						]
 					}
 				]
+			}
+		],
+		"minecraft:hit_block": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "skills:advancement_functions/combat/stop_parrying"
+				}
+			}
+		],
+		"minecraft:post_attack": [
+			{
+				"enchanted": "attacker",
+				"affected": "attacker",
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "skills:advancement_functions/combat/stop_parrying"
+				}
 			}
 		]
 	}

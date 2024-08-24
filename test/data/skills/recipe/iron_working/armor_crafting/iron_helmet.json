@@ -19,8 +19,8 @@
 				"modifiers": [
 					{
 						"type": "minecraft:generic.movement_speed",
-						"id": "movement_debuff",
-						"amount": -0.01,
+						"id": "movement_debuff_head",
+						"amount": -0.05,
 						"operation": "add_multiplied_base",
 						"slot": "head"
 					},

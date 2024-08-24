@@ -1,0 +1,1 @@
+scoreboard objectives add forestry.scan_count dummy

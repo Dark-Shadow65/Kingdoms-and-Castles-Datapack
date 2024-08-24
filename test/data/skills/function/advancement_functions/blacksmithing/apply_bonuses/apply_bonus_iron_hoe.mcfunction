@@ -25,6 +25,7 @@ execute store result storage skills.blacksmithing.bonus efficiency float 0.001 r
 data modify storage skills.blacksmithing.bonus can_parry_in_offhand set value false
 data modify storage skills.blacksmithing.bonus two_handed_attack_speed_bonus set value 0.5
 data modify storage skills.blacksmithing.bonus reach set value 1
+data modify storage skills.blacksmithing.bonus parry_break_scalar set value 1
 data modify storage skills.blacksmithing.bonus enchantments set value {"skills:sharpen_item":1,"skills:update_handedness":1}
 
 function skills:advancement_functions/blacksmithing/apply_blacksmith_bonus_tool with storage skills.blacksmithing.bonus
