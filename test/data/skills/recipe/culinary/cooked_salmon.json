@@ -1,9 +1,7 @@
 {
 	"type": "minecraft:smelting",
 	"category": "food",
-	"ingredient": {
-		"item": "minecraft:salmon"
-	},
+	"ingredient": "minecraft:salmon",
 	"result": {
 		"id": "minecraft:cooked_salmon",
         "components": {

@@ -1,14 +1,8 @@
 {
     "type": "minecraft:smithing_transform",
-    "template": {
-      "item": "minecraft:netherite_upgrade_smithing_template"
-    },
-    "base": {
-        "item": "minecraft:prismarine_shard"
-    },
-    "addition": {
-        "item": "minecraft:iron_nugget"
-    },
+    "template": "minecraft:netherite_upgrade_smithing_template",
+    "base": "minecraft:prismarine_shard",
+    "addition": "minecraft:iron_nugget",
     "result": {
       "id": "minecraft:ghast_tear",
       "count": 1,

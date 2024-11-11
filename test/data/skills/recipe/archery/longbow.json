@@ -6,12 +6,8 @@
       " sS"
     ],
     "key": {
-      "S": {
-        "item": "minecraft:string"
-      },
-      "s": {
-        "item": "minecraft:stick"
-      }
+      "S": "minecraft:string",
+      "s": "minecraft:stick"
     },
     "result": {
       "id": "minecraft:bow",

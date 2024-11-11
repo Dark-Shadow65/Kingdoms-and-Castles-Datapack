@@ -1,14 +1,8 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": {
-		"item": "minecraft:netherite_upgrade_smithing_template"
-	},
-	"base": {
-		"item": "minecraft:iron_axe"
-	},
-	"addition": {
-		"item": "minecraft:blaze_rod"
-	},
+	"template": "minecraft:netherite_upgrade_smithing_template",
+	"base": "minecraft:iron_axe",
+	"addition": "minecraft:blaze_rod",
 	"result": {
 		"id": "minecraft:iron_axe",
 		"components": {

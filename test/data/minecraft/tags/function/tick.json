@@ -2,6 +2,6 @@
   "replace": false,
   "values": [
 	"skills:tick",
-  "forestry:tick"
+  "environmental:tick"
 	]
 }

@@ -6,15 +6,9 @@
       "f  "
     ],
     "key": {
-      "i": {
-        "item": "minecraft:blaze_rod"
-      },
-      "f": {
-        "item": "minecraft:feather"
-      },
-      "s": {
-        "item": "minecraft:stick"
-      }
+      "i": "minecraft:blaze_rod",
+      "f": "minecraft:feather",
+      "s": "minecraft:stick"
     },
     "result": {
       "id": "minecraft:arrow",

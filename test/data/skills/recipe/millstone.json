@@ -5,12 +5,8 @@
       "sss"
     ],
     "key": {
-      "s": {
-        "item": "minecraft:smooth_stone_slab"
-      },
-      "S": {
-        "item": "minecraft:stick"
-      }
+      "s": "minecraft:smooth_stone_slab",
+      "S": "minecraft:stick"
     },
     "result": {
       "id": "minecraft:warped_slab",

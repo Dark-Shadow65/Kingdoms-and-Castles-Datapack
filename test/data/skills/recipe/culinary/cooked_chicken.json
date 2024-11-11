@@ -1,9 +1,7 @@
 {
 	"type": "minecraft:smelting",
 	"category": "food",
-	"ingredient": {
-		"item": "minecraft:chicken"
-	},
+	"ingredient": "minecraft:chicken",
 	"result": {
 		"id": "minecraft:cooked_chicken",
         "components": {

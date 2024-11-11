@@ -7,12 +7,8 @@
 		"lll"
 	],
 	"key": {
-		"l": {
-			"item": "minecraft:leather"
-		},
-		"c": {
-			"item": "minecraft:chain"
-		}
+		"l": "minecraft:leather",
+		"c": "minecraft:chain"
 	},
 	"result": {
 		"id": "minecraft:chainmail_chestplate",
@@ -21,14 +17,14 @@
 			"minecraft:attribute_modifiers": {
 				"modifiers": [
 					{
-						"type": "minecraft:generic.movement_speed",
+						"type": "minecraft:movement_speed",
 						"id": "movement_debuff",
 						"amount": -0.01,
 						"operation": "add_multiplied_base",
 						"slot": "chest"
 					},
 					{
-						"type": "generic.armor",
+						"type": "armor",
 						"id": "chest_armor",
 						"amount": 5,
 						"operation": "add_value",

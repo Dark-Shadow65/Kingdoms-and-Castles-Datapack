@@ -1,9 +1,7 @@
 {
 	"type": "minecraft:crafting_shapeless",
 	"ingredients": [
-		{
-			"item": "minecraft:blaze_rod"
-		}
+		"minecraft:blaze_rod"
 	],
 	"result": {
 		"id": "minecraft:iron_nugget",

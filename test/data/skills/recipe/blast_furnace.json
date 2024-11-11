@@ -6,18 +6,10 @@
       "SSS"
     ],
     "key": {
-      "S": {
-        "item": "minecraft:smooth_stone"
-      },
-      "s": {
-        "item": "minecraft:smooth_stone_slab"
-      },
-      "c": {
-        "item": "minecraft:cobblestone"
-      },
-      "f": {
-        "item": "minecraft:furnace"
-      }
+      "S": "minecraft:smooth_stone",
+      "s": "minecraft:smooth_stone_slab",
+      "c": "minecraft:cobblestone",
+      "f": "minecraft:furnace"
     },
     "result": {
       "id": "minecraft:blast_furnace",

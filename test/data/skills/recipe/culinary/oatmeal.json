@@ -5,12 +5,8 @@
       " b "
     ],
     "key": {
-      "o": {
-        "item": "minecraft:prismarine_crystals"
-      },
-      "b": {
-        "item": "minecraft:bowl"
-      }
+      "o": "minecraft:prismarine_crystals",
+      "b": "minecraft:bowl"
     },
     "result": {
       "id": "minecraft:baked_potato",

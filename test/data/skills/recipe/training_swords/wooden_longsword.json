@@ -6,9 +6,7 @@
       "s  "
     ],
     "key": {
-      "s": {
-        "item": "minecraft:stick"
-      }
+      "s": "minecraft:stick"
     },
     "result": {
       "id": "minecraft:wooden_sword",
@@ -17,28 +15,28 @@
         "attribute_modifiers": {
           "modifiers":[
             {
-              "type":"minecraft:player.entity_interaction_range",
+              "type":"minecraft:entity_interaction_range",
               "slot":"mainhand",
               "id":"reach",
               "amount":1.5,
               "operation":"add_value"
             },
             {
-              "type":"generic.attack_speed",
+              "type":"attack_speed",
               "slot":"mainhand",
               "id":"two_handed_attack_speed_bonus",
               "amount":0,
               "operation":"add_value"
             },
             {
-              "type":"generic.attack_damage",
+              "type":"attack_damage",
               "slot":"mainhand",
               "id":"base_damage",
               "amount":-0.9, 
               "operation":"add_value"
             },
             {
-              "type":"generic.attack_speed",
+              "type":"attack_speed",
               "id":"base_attack_speed",
               "amount":-3.2,
               "operation":"add_value",

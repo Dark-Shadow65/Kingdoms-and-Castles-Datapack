@@ -1,9 +1,7 @@
 {
 	"type": "minecraft:smelting",
 	"category": "food",
-	"ingredient": {
-		"item": "minecraft:milk_bucket"
-	},
+	"ingredient": "minecraft:milk_bucket",
 	"result": {
 		"id": "minecraft:baked_potato",
         "components": {

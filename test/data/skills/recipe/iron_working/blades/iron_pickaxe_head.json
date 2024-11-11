@@ -1,14 +1,8 @@
 {
     "type": "minecraft:smithing_transform",
-    "template": {
-      "item": "minecraft:netherite_upgrade_smithing_template"
-    },
-    "base": {
-      "item": "minecraft:prismarine_shard"
-    },
-    "addition": {
-        "item": "minecraft:blaze_rod"
-    },
+    "template": "minecraft:netherite_upgrade_smithing_template",
+    "base": "minecraft:prismarine_shard",
+    "addition": "minecraft:blaze_rod",
     "result": {
       "id": "minecraft:magma_cream",
       "count": 1,

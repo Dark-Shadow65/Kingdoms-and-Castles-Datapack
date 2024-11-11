@@ -6,12 +6,8 @@
       "fff"
     ],
     "key": {
-      "f": {
-        "item": "minecraft:glowstone_dust"
-      },
-      "w": {
-        "item": "minecraft:water_bucket"
-      }
+      "f": "minecraft:glowstone_dust",
+      "w": "minecraft:water_bucket"
     },
     "result": {
 		"id": "minecraft:blaze_powder",

@@ -40,7 +40,7 @@
 		"modifiers": [
 			{
 				"id": "damage_debuff",
-				"attribute": "minecraft:generic.attack_damage",
+				"attribute": "minecraft:attack_damage",
 				"amount": -0.5,
 				"operation": "add_multiplied_base",
 				"slot": "mainhand"
@@ -59,7 +59,7 @@
 		"modifiers": [
 			{
 				"id": "efficiency_debuff",
-				"attribute": "minecraft:player.block_break_speed",
+				"attribute": "minecraft:block_break_speed",
 				"amount": -0.75,
 				"operation": "add_multiplied_base",
 				"slot": "mainhand"

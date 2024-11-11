@@ -6,15 +6,9 @@
       "f  "
     ],
     "key": {
-      "S": {
-        "item": "minecraft:string"
-      },
-      "f": {
-        "item": "minecraft:feather"
-      },
-      "s": {
-        "item": "minecraft:stick"
-      }
+      "S": "minecraft:string",
+      "f": "minecraft:feather",
+      "s": "minecraft:stick"
     },
     "result": {
       "id": "minecraft:arrow",

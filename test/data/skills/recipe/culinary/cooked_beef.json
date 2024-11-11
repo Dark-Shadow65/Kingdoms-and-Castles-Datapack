@@ -1,9 +1,7 @@
 {
 	"type": "minecraft:smelting",
 	"category": "food",
-	"ingredient": {
-		"item": "minecraft:beef"
-	},
+	"ingredient": "minecraft:beef",
 	"result": {
 		"id": "minecraft:cooked_beef",
         "components": {

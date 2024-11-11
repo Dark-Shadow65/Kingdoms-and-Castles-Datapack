@@ -4,9 +4,7 @@
       "w"
     ],
     "key": {
-      "w": {
-        "item": "minecraft:hay_block"
-      }
+      "w": "minecraft:hay_block"
     },
     "result": {
       "id": "minecraft:wheat",
