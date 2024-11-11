@@ -8,9 +8,7 @@
       "m": {
         "tag": "skills:cooked_meat"
       },
-      "d": {
-        "item": "minecraft:blaze_powder"
-      }
+      "d": "minecraft:blaze_powder"
     },
     "result": {
       "id": "minecraft:pumpkin_pie",

@@ -5,12 +5,8 @@
       "s "
     ],
     "key": {
-      "f": {
-        "item": "minecraft:flint"
-      },
-      "s": {
-        "item": "minecraft:stick"
-      }
+      "f": "minecraft:flint",
+      "s": "minecraft:stick"
     },
     "result": {
       "id": "minecraft:stone_sword",
@@ -19,28 +15,28 @@
         "attribute_modifiers": {
           "modifiers":[
             {
-              "type":"minecraft:player.entity_interaction_range",
+              "type":"minecraft:entity_interaction_range",
               "slot":"mainhand",
               "id":"reach",
               "amount":0.25,
               "operation":"add_value"
             },
             {
-              "type":"generic.attack_speed",
+              "type":"attack_speed",
               "slot":"mainhand",
               "id":"two_handed_attack_speed_bonus",
               "amount":0,
               "operation":"add_value"
             },
             {
-              "type":"generic.attack_damage",
+              "type":"attack_damage",
               "slot":"mainhand",
               "id":"base_damage",
               "amount":1, 
               "operation":"add_value"
             },
             {
-              "type":"generic.attack_speed",
+              "type":"attack_speed",
               "id":"base_attack_speed",
               "amount":-2.1,
               "operation":"add_value",

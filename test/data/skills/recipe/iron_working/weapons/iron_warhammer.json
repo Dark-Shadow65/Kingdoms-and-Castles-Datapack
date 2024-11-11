@@ -1,14 +1,8 @@
 {
     "type": "minecraft:smithing_transform",
-    "template": {
-      "item": "minecraft:netherite_upgrade_smithing_template"
-    },
-    "base": {
-        "item": "minecraft:stick"
-    },
-    "addition": {
-        "item": "minecraft:iron_ingot"
-    },
+    "template": "minecraft:netherite_upgrade_smithing_template",
+    "base": "minecraft:stick",
+    "addition": "minecraft:iron_ingot",
     "result": {
       "id": "minecraft:netherite_axe",
       "count": 1,

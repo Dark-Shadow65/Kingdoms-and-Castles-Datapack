@@ -2,7 +2,7 @@
 	"function": "minecraft:set_attributes",
 	"modifiers": [
 		{
-			"attribute": "minecraft:player.block_break_speed",
+			"attribute": "minecraft:block_break_speed",
 			"name": "skill_bonus",
 			"amount": {
 				"type": "minecraft:score",

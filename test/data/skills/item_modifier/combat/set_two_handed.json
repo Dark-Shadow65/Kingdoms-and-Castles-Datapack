@@ -4,7 +4,7 @@
 		"modifiers": [
 			{
 				"id": "two_handed_attack_speed_bonus",
-				"attribute": "minecraft:generic.attack_speed",
+				"attribute": "minecraft:attack_speed",
 				"amount": {
 					"type": "minecraft:storage",
 					"storage": "minecraft:combat",
@@ -50,7 +50,7 @@
 											"contains": [
 												{
 													"id": "two_handed_attack_speed_bonus",
-													"attribute": "minecraft:generic.attack_speed",
+													"attribute": "minecraft:attack_speed",
 													"amount": {
 														"min": 0,
 														"max": 0

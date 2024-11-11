@@ -6,12 +6,8 @@
 		"c c"
 	],
 	"key": {
-		"l": {
-			"item": "minecraft:leather"
-		},
-		"c": {
-			"item": "minecraft:chain"
-		}
+		"l": "minecraft:leather",
+		"c": "minecraft:chain"
 	},
 	"result": {
 		"id": "minecraft:chainmail_helmet",
@@ -20,14 +16,14 @@
 			"minecraft:attribute_modifiers": {
 				"modifiers": [
 					{
-						"type": "minecraft:generic.movement_speed",
+						"type": "minecraft:movement_speed",
 						"id": "movement_debuff",
 						"amount": -0.005,
 						"operation": "add_multiplied_base",
 						"slot": "head"
 					},
 					{
-						"type": "generic.armor",
+						"type": "armor",
 						"id": "head_armor",
 						"amount": 2,
 						"operation": "add_value",

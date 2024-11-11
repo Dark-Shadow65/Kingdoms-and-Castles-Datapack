@@ -1,9 +1,7 @@
 {
 	"type": "minecraft:smelting",
 	"category": "food",
-	"ingredient": {
-		"item": "minecraft:mutton"
-	},
+	"ingredient": "minecraft:mutton",
 	"result": {
 		"id": "minecraft:cooked_mutton",
         "components": {

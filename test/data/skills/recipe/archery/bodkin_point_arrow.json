@@ -6,15 +6,9 @@
       "f  "
     ],
     "key": {
-      "i": {
-        "item": "minecraft:iron_nugget"
-      },
-      "f": {
-        "item": "minecraft:feather"
-      },
-      "s": {
-        "item": "minecraft:stick"
-      }
+      "i": "minecraft:iron_nugget",
+      "f": "minecraft:feather",
+      "s": "minecraft:stick"
     },
     "result": {
       "id": "minecraft:arrow",

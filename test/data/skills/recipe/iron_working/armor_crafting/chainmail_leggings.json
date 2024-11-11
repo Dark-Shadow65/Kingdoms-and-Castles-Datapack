@@ -7,12 +7,8 @@
 		"l l"
 	],
 	"key": {
-		"l": {
-			"item": "minecraft:leather"
-		},
-		"c": {
-			"item": "minecraft:chain"
-		}
+		"l": "minecraft:leather",
+		"c": "minecraft:chain"
 	},
 	"result": {
 		"id": "minecraft:chainmail_leggings",
@@ -21,14 +17,14 @@
 			"minecraft:attribute_modifiers": {
 				"modifiers": [
 					{
-						"type": "minecraft:generic.movement_speed",
+						"type": "minecraft:movement_speed",
 						"id": "movement_debuff",
 						"amount": -0.01,
 						"operation": "add_multiplied_base",
 						"slot": "legs"
 					},
 					{
-						"type": "generic.armor",
+						"type": "armor",
 						"id": "leg_armor",
 						"amount": 4,
 						"operation": "add_value",

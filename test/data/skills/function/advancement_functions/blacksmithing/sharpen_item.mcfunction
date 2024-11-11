@@ -1,4 +1,4 @@
-tellraw @s "Sharpend held item!"
+tellraw @s "sharpened held item!"
 
 execute store result storage skills.blacksmithing sharpness_to_int int 1 run data get entity @s SelectedItem.components."minecraft:custom_data".sharpness_max
 

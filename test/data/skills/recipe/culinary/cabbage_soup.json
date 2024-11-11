@@ -5,12 +5,8 @@
       " b "
     ],
     "key": {
-      "c": {
-        "item": "minecraft:beetroot"
-      },
-      "b": {
-        "item": "minecraft:bowl"
-      }
+      "c": "minecraft:beetroot",
+      "b": "minecraft:bowl"
     },
     "result": {
       "id": "minecraft:beetroot_soup",

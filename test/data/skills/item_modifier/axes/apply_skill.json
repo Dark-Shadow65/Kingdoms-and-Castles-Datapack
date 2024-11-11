@@ -2,7 +2,7 @@
 	"function": "minecraft:set_attributes",
 	"modifiers": [
 		{
-			"attribute": "minecraft:generic.attack_damage",
+			"attribute": "minecraft:attack_damage",
 			"name": "skills_attack_bonus",
 			"amount": {
 				"type": "minecraft:score",
@@ -15,7 +15,7 @@
 			"slot": "mainhand"
 		},
 		{
-			"attribute": "minecraft:generic.attack_speed",
+			"attribute": "minecraft:attack_speed",
 			"name": "skills_speed_bonus",
 			"amount": {
 				"type": "minecraft:score",

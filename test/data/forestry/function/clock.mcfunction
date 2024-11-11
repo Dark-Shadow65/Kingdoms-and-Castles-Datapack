@@ -1,2 +1,0 @@
-execute as @a[limit=2,sort=random] at @s if predicate forestry:grass_growth/0.1_chance if predicate forestry:grass_growth/check_if_grass_can_grow run summon marker ~ ~ ~ {Tags:[scan_center,scan]}
-execute as @e[type=marker,tag=scan_center] run schedule function forestry:grass_growth/scan 50t

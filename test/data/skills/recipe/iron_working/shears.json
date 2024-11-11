@@ -5,9 +5,7 @@
       "i "
     ],
     "key": {
-      "i": {
-        "item": "minecraft:blaze_rod"
-      }
+      "i": "minecraft:blaze_rod"
     },
     "result": {
       "id": "minecraft:shears",

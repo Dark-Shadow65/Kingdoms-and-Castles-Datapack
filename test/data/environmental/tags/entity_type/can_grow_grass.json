@@ -1,0 +1,10 @@
+{
+    "values": [
+        "minecraft:player",
+        "minecraft:sheep",
+        "minecraft:pig",
+        "minecraft:horse",
+        "minecraft:cow",
+        "minecraft:donkey"
+    ]
+}

@@ -1,14 +1,8 @@
 {
     "type": "minecraft:smithing_transform",
-    "template": {
-      "item": "minecraft:netherite_upgrade_smithing_template"
-    },
-    "base": {
-      "item": "minecraft:netherite_scrap"
-    },
-    "addition": {
-      "item": "minecraft:prismarine_shard"
-    },
+    "template": "minecraft:netherite_upgrade_smithing_template",
+    "base": "minecraft:netherite_scrap",
+    "addition": "minecraft:prismarine_shard",
     "result": {
       "id": "minecraft:netherite_ingot",
       "count": 1,

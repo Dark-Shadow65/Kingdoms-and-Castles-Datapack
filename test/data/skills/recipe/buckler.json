@@ -9,9 +9,7 @@
       "w": {
         "tag": "minecraft:planks"
       },
-      "I": {
-        "item": "minecraft:prismarine_shard"
-      }
+      "I": "minecraft:prismarine_shard"
     },
     "result": {
       "id": "minecraft:shield",

@@ -6,12 +6,8 @@
       "s "
     ],
     "key": {
-      "f": {
-        "item": "minecraft:flint"
-      },
-      "s": {
-        "item": "minecraft:stick"
-      }
+      "f": "minecraft:flint",
+      "s": "minecraft:stick"
     },
     "result": {
       "id": "minecraft:stone_shovel",
@@ -20,35 +16,35 @@
         "attribute_modifiers": {
           "modifiers":[
             {
-              "type":"minecraft:player.entity_interaction_range",
+              "type":"minecraft:entity_interaction_range",
               "slot":"mainhand",
               "id":"reach",
               "amount":0.5,
               "operation":"add_value"
             },
             {
-              "type":"generic.attack_speed",
+              "type":"attack_speed",
               "slot":"mainhand",
               "id":"two_handed_attack_speed_bonus",
               "amount":0,
               "operation":"add_value"
             },
             {
-              "type":"generic.attack_damage",
+              "type":"attack_damage",
               "slot":"mainhand",
               "id":"base_damage",
               "amount":0.5, 
               "operation":"add_value"
             },
             {
-              "type":"generic.attack_speed",
+              "type":"attack_speed",
               "id":"base_attack_speed",
               "amount":-3,
               "operation":"add_value",
               "slot":"mainhand"
             },
             {
-              "type":"minecraft:player.block_break_speed",
+              "type":"minecraft:block_break_speed",
               "id":"set_base_speed",
               "amount":0.2,
               "operation":"add_value",

@@ -2,11 +2,9 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:food": {
-				"nutrition": 0,
-				"saturation": 0,
-				"can_always_eat": true,
-				"eat_seconds": 10000000000
+			"minecraft:consumable": {
+				"animation": "block",
+				"consume_seconds": 10000000000
 			}
 		}
 	}

@@ -1,14 +1,8 @@
 {
   "type": "minecraft:smithing_transform",
-  "template": {
-    "item": "minecraft:netherite_upgrade_smithing_template"
-  },
-  "base": {
-    "item": "minecraft:stick"
-  },
-  "addition": {
-    "item": "minecraft:netherite_ingot"
-  },
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "base": "minecraft:stick",
+  "addition": "minecraft:netherite_ingot",
   "result": {
     "id": "minecraft:netherite_sword",
     "count": 1,
@@ -18,7 +12,7 @@
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {
-            "type": "minecraft:generic.attack_damage",
+            "type": "minecraft:attack_damage",
             "id": "base",
             "amount": -1,
             "operation": "add_multiplied_base",

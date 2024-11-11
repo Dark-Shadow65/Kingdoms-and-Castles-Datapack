@@ -6,9 +6,7 @@
 		"i i"
 	],
 	"key": {
-		"i": {
-			"item": "minecraft:prismarine_shard"
-		}
+		"i": "minecraft:prismarine_shard"
 	},
 	"result": {
 		"id": "minecraft:iron_boots",
@@ -18,14 +16,14 @@
 			"minecraft:attribute_modifiers": {
 				"modifiers": [
 					{
-						"type": "minecraft:generic.movement_speed",
+						"type": "minecraft:movement_speed",
 						"id": "movement_debuff_feet",
 						"amount": -0.05,
 						"operation": "add_multiplied_base",
 						"slot": "feet"
 					},
 					{
-						"type": "generic.armor",
+						"type": "armor",
 						"id": "foot_armor",
 						"amount": 2,
 						"operation": "add_value",

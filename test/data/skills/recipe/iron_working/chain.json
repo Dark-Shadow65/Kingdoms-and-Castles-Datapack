@@ -6,12 +6,8 @@
       "n"
     ],
     "key": {
-      "i": {
-        "item": "minecraft:blaze_rod"
-      },
-      "n": {
-        "item": "minecraft:iron_nugget"
-      }
+      "i": "minecraft:blaze_rod",
+      "n": "minecraft:iron_nugget"
     },
     "result": {
       "id": "minecraft:chain",
