@@ -1,6 +1,6 @@
 {
 	"description": "parry",
-	"supported_items": "#skills:can_parry",
+	"supported_items": "minecraft:netherite_pickaxe",
 	"weight": 1,
 	"max_level": 1,
 	"min_cost": {

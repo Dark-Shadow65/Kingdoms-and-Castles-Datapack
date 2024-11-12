@@ -1,7 +1,6 @@
 advancement revoke @s only skills:forge_items/craft_messer
 scoreboard players add @s skills.blacksmithing.xp 3
 
-data modify storage skills.blacksmithing.bonus type set value "minecraft:iron_sword"
 data modify storage skills.blacksmithing.bonus name set value "Messer"
 data modify storage skills.blacksmithing.bonus attack_speed_debuff set value -2.8
 
