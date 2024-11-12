@@ -7,4 +7,5 @@ function skills:axes/clocktick
 function skills:archery/clocktick
 function skills:farming/clocktick
 function environmental:clock
+function skills:fishing/clocktick
 scoreboard players reset dummy skills.clock
