@@ -1,6 +1,6 @@
 data modify storage combat two_handed_attack_speed_bonus set value 0
 data modify storage combat two_handed_attack_speed_bonus set from entity @s SelectedItem.components."minecraft:custom_data".two_handed_attack_speed_bonus
-execute if items entity @s weapon.mainhand *[minecraft:enchantments~[{"skills:parry":1}]] unless items entity @s weapon.offhand * run item modify entity @s weapon.mainhand skills:combat/set_able_to_parry
+execute if items entity @s weapon.mainhand *[minecraft:enchantments~[{"skills:parry":1}]] unless score @s skills.combat.parry_cooldown matches 0.. unless items entity @s weapon.offhand * run item modify entity @s weapon.mainhand skills:combat/set_able_to_parry
 execute if items entity @s weapon.mainhand *[minecraft:enchantments~[{"skills:parry":1}]] if items entity @s weapon.offhand * run item modify entity @s weapon.mainhand skills:combat/set_unable_to_parry
 
 execute unless items entity @s weapon.mainhand *[minecraft:custom_data~{"two_handed_attack_speed_bonus":0}] unless items entity @s weapon.offhand * run item modify entity @s weapon.mainhand skills:combat/set_two_handed
