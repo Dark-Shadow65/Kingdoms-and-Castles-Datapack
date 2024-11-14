@@ -47,7 +47,7 @@
 					}
 				],
 				"item": {
-					"items": "minecraft:netherite_pickaxe"
+					"items": "#skills:sharp_items"
 				}
 			}
 		}
