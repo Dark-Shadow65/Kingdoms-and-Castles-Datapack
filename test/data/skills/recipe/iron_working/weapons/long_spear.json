@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": "minecraft:netherite_upgrade_smithing_template",
+    "base": "minecraft:stick",
+    "addition": "minecraft:stick",
+    "result": {
+      "id": "minecraft:netherite_pickaxe",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"text\":\"Long Spear\"}",
+        "minecraft:hide_additional_tooltip": {},
+        "minecraft:lore": [
+          "[{\"text\":\"Unsharpend\",\"color\":\"red\",\"italic\":false}]"
+        ],
+        "minecraft:custom_data": {"bonus_applied":false}
+      }
+    }
+  }

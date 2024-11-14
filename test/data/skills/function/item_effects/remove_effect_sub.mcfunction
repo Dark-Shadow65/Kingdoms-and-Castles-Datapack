@@ -1,3 +1,0 @@
-$execute store result storage minecraft:skills.apply_bonus efficiency int 1 run data get entity @s Inventory[{Slot:$(slot)b}].components."minecraft:custom_data".efficiency_bonus
-$execute store result storage minecraft:skills.apply_bonus durability int 1 run data get entity @s Inventory[{Slot:$(slot)b}].components."minecraft:custom_data".durability_bonus
-$execute unless entity @s[nbt={SelectedItemSlot:$(slot)}] run item modify entity @s hotbar.$(slot) skills:remove_effect
