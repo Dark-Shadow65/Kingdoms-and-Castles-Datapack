@@ -47,7 +47,7 @@
 					}
 				],
 				"item": {
-					"items": "#minecraft:swords"
+					"items": "minecraft:netherite_pickaxe"
 				}
 			}
 		}
