@@ -9,6 +9,7 @@ function skills:swords/init
 function skills:axes/init
 function skills:archery/init
 function skills:fishing/init
+function skills:butcher/init
 scoreboard objectives add skills.clock dummy
 scoreboard objectives add skills.combat.parry_cooldown dummy
 scoreboard objectives add skills.combat.parry_timeout dummy
