@@ -4,7 +4,7 @@
 	"base": "minecraft:netherite_sword",
 	"addition": "minecraft:blaze_rod",
 	"result": {
-		"id": "minecraft:netherite_sword",
+		"id": "minecraft:netherite_pickaxe",
 		"components": {
 			"minecraft:damage": 1
 		}
