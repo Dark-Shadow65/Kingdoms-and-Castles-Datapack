@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:smithing_transform",
 	"template": "minecraft:netherite_upgrade_smithing_template",
-	"base": "minecraft:stick",
+	"base": "minecraft:phantom_membrane",
 	"addition": "minecraft:blaze_rod",
 	"result": {
 		"id": "minecraft:iron_hoe",

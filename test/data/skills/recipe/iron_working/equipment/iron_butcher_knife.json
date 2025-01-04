@@ -1,14 +1,16 @@
 {
 	"type": "minecraft:smithing_transform",
 	"template": "minecraft:netherite_upgrade_smithing_template",
-	"base": "minecraft:phantom_membrane",
-	"addition": "minecraft:prismarine_shard",
+	"base": "minecraft:stick",
+	"addition": "minecraft:blaze_rod",
 	"result": {
-		"id": "minecraft:iron_shovel",
+		"id": "minecraft:iron_sword",
 		"count": 1,
 		"components": {
-			"minecraft:item_name": "{\"text\":\"Iron Shovel\"}",
+			"minecraft:item_name": "{\"text\":\"Butcher's Knife\"}",
 			"minecraft:max_damage": 1000,
+            "minecraft:item_model": "minecraft:weapons",
+            "minecraft:custom_model_data": {"strings":["onehanded","Knife"]},
 			"minecraft:hide_additional_tooltip": {},
 			"minecraft:lore": [
 				"[{\"text\":\"Unsharpend\",\"color\":\"red\",\"italic\":false}]"

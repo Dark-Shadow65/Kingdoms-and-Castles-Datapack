@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "sharpen_longsword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": [],
+        "recipe_id": "skills:iron_working/equipment/iron_butcher_knife"
+      }
+    }
+  },
+  "rewards": {
+    "function": "skills:advancement_functions/blacksmithing/apply_bonuses/apply_bonus_iron_butcher_knife"
+  }
+}
