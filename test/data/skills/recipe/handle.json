@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "s",
+      "s"
+    ],
+    "key": {
+      "s": "minecraft:stick"
+    },
+    "result": {
+      "id": "minecraft:phantom_membrane",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"text\":\"Long Handle\"}",
+        "minecraft:hide_additional_tooltip": {}
+      }
+    }
+  }

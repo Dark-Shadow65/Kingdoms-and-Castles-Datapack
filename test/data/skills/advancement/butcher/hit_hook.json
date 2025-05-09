@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"hit_hook": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:interaction"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "skills:advancement_functions/butcher/interacted_with_hook"
+	}
+}

@@ -61,7 +61,7 @@
         "max_damage": 100,
         "enchantment_glint_override": false,
         "hide_additional_tooltip": {},
-        "custom_model_data": 1
+        "minecraft:custom_model_data": {"floats":[1]}
       }
     }
   }

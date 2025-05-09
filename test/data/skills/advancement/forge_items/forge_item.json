@@ -112,6 +112,13 @@
           "recipe_id": "skills:iron_working/weapons/iron_warhammer"
         }
       },
+      "butcher_knife": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": [],
+          "recipe_id": "skills:iron_working/equipment/butcher_knife"
+        }
+      },
       "repair_axe": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
@@ -185,6 +192,7 @@
         "kreigmesser",
         "messer",
         "warhammer",
+        "butcher_knife",
         "shovel",
         "hoe",
         "repair_axe",

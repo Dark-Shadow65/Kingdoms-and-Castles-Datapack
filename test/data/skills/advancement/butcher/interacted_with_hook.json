@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"interacted_with_hook": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:interaction"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "skills:advancement_functions/butcher/interacted_with_hook"
+	}
+}

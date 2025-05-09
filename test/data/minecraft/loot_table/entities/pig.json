@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_blocks",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"!minecraft:jukebox_playable": {},
+								"minecraft:item_model": "minecraft:corpses/pig",
+								"minecraft:custom_data": {
+									"health": 100,
+									"max_uses": 4
+								}
+							}
+						}
+					]
+				}
+			],
+			"functions": []
+		}
+	],
+	"random_sequence": "minecraft:entities/pig"
+}

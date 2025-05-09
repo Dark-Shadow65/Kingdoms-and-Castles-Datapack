@@ -1,6 +1,6 @@
 {
 	"description": "update_handedness",
-	"supported_items": "#skills:can_parry",
+	"supported_items": "minecraft:netherite_pickaxe",
 	"weight": 1,
 	"max_level": 1,
 	"min_cost": {
@@ -27,7 +27,7 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"periodic_tick": 10
+						"periodic_tick": 1
 					}
 				}
 			}

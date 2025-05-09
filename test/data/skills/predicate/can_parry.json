@@ -1,0 +1,27 @@
+[
+	{
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"slots": {
+				"weapon.*": {
+					"predicates": {
+						"minecraft:enchantments": [
+							{
+								"enchantments": "skills:parry",
+								"levels": 1
+							}
+						]
+					}
+				}
+			},
+			"flags": {
+				"is_on_ground": true,
+				"is_on_fire": false,
+				"is_sprinting": false,
+				"is_swimming": false,
+				"is_flying": false
+			}
+		}
+	}
+]
